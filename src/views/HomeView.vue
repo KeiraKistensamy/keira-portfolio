@@ -4,7 +4,7 @@
       <img src="https://keirakistensamy.github.io/images/images/IMG_4215.jpg" width="400px" height="450px" class="image" loading="lazy">
     </div>
     <div class="col-md-6 text-center">
-      <h1>I am <span>Keira Kistensamy</span></h1>
+      <p class="h1">I am <span>Keira Kistensamy</span></p>
       <p class="text0">and I am an aspiring frontend developer</p>
       <p class="text1 lead">
         With a passion for creating clean, responsive, and user-friendly web experiences.
@@ -55,14 +55,18 @@
 }
 
 /* Text styling */
-h1 {
-  font-size: 36px;
+.h1 {
+  font-size: 58px;
   color: white;
+  width: 100%;
 }
 
 .text0 {
   font-size: 30px;
   color: white;
+  font-family: "Italiana", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .text1 {
@@ -70,6 +74,7 @@ h1 {
   color: white;
   max-width: 80%;
   margin-bottom: 20px;
+
 }
 
 /* Fixed border-top styling */

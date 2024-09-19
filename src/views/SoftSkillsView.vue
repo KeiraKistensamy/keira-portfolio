@@ -1,126 +1,257 @@
 <template>
-  <div class="resume">
-    <p>My Resume</p>
+  <div class="about">
+    <p>About Me</p>
   </div>
   <div class="border"></div>
-  <div class="container my-0 py-0">
-    <div class="routes d-flex justify-content-center mb-0 pb-2">
-      <router-link to="/resume" class="link px-2">Education</router-link> 
-      <span>|</span>
-      <router-link to="/experience" class="link px-2">Work Experience</router-link>
+  <div class="quote text-center">
+    <h5 class="quotep lead">"Designing with passion, creating with precision."</h5>
+  </div>
+  <div class="row align-items-center justify-content-center">
+    <div class="col-md-6 text-center text-md-left">
+      <h6>
+        I, Keira Kistensamy, am weaving my story with creativity, passion, and purpose. I matriculated in the year 2022 and decided to take a gap year to pursue small passions. I studied fashion design in 2023 and completed my course. With curiosity and a mind full of ideas, it took some time to brainstorm what I truly wanted to do.
+      </h6>
+
+      <h6>
+        I am a dedicated individual committed to making a positive impact in both my personal and professional life. My unwavering determination propels me forward in my journey of growth and self-discovery. My energy and kindness leave a mark on those who cross paths with me, making me a cherished member of any community.
+      </h6>
+
+      <h6>
+        Currently, I am a student at Life Choices Academy, studying Software Development. With a thirst for knowledge and a passion for excellence, I strive to unlock my full potential and make the most of every opportunity.
+      </h6>
     </div>
 
-    <div class="row">
-      <div class="col-md-3 text-center">
-        <h1 class="head">Education</h1>
-      </div>
-
-      <div class="col-md-9">
-        <div class="education-card">
-          <h3>Spine Road High School</h3>
-          <p class="lead">2018 - 2022</p>
-        </div>
-
-        <div class="education-card">
-          <h3>School of Fashion</h3>
-          <p class="lead">2023</p>
-          <p class="details">In 2023, I completed four fashion courses in pattern making and sewing, gaining expertise in creating custom patterns and bringing designs to life through skilled sewing techniques.</p>
-        </div>
-      </div>
+    <div class="col-md-6 text-center">
+      <img src="https://keirakistensamy.github.io/images/images/IMG_4215.jpg" width="350px" height="400px" class="pic">
     </div>
   </div>
+
+    <div class="skills">
+    <p>My Skills </p>
+    </div>
+
+
+  <div class="routes d-flex justify-content-center mb-0 pb-2">
+    <router-link to="/about" class="link px-2">Technical Skills</router-link>
+    <span>|</span>
+    <router-link to="/softskills" class="link px-2">Soft Skills</router-link>
+  </div>
+
+<div class="row justify-content-center text-center">
+  <div class="col-md-4">
+    <img src="https://keirakistensamy.github.io/capstoneImg/images/icons8-clock-64.png" width="100px" height="100px">
+    <p>Time Management</p>
+  </div>
+  <div class="col-md-4">
+    <img src="https://keirakistensamy.github.io/capstoneImg/images/icons8-communication-64.png" width="100px" height="100px">
+    <p>Communication</p>
+  </div>
+  <div class="col-md-4">
+    <img src="https://keirakistensamy.github.io/capstoneImg/images/icons8-problem-solving-64.png" width="100px" height="100px">
+    <p>Problem Solving</p>
+  </div>
+</div>
+
+<div class="row justify-content-center text-center">
+  <div class="col-md-4">
+    <img src="https://keirakistensamy.github.io/capstoneImg/images/icons8-teamwork-64.png" width="100px" height="100px">
+    <p>Teamwork</p>
+  </div>
+  <div class="col-md-4">
+    <img src="https://keirakistensamy.github.io/capstoneImg/images/icons8-system-optimization-78.png" width="100px" height="100px">
+    <p>NodeJS</p>
+  </div>
+  <div class="col-md-4">
+    <img src="https://keirakistensamy.github.io/capstoneImg/images/icons8-creativity-50.png" width="100px" height="100px">
+    <p>Creativity</p>
+  </div>
+</div>
+
 </template>
 
 <style scoped>
-.resume p {
+/* Overall container styling */
+.about p {
   color: white;
   font-size: 64px;
   font-weight: 700;
   margin-left: 2rem;
   border-left: 0.5rem solid gold;
   padding-left: 1rem;
+  margin-bottom: 10px;
 }
 
 /* Horizontal divider */
 .border {
-  margin: 30px auto;
-  border-bottom: 0.5rem solid gold;
+  margin: 20px auto;
+  border-bottom: 4px solid gold;
   width: 80%;
 }
 
-.container {
-  color: white;
-  border-radius: 8px;
-  overflow-y: auto; /* Adds a vertical scrollbar */
-  max-height: 500px; /* Adjust this to your preferred height */
-}
-
-.router-link {
-  color: #f39c12;
-  text-decoration: none;
-  font-weight: 500;
-}
-
-.router-link:hover {
-  color: #e67e22;
-}
-
-.head {
+/* Quote section styling */
+.quotep {
+  margin-top: 20px;
   font-size: 32px;
-  font-weight: 600;
+  font-style: italic;
+  color: gold;
+  font-family: "Irish Grover", system-ui;
+  font-weight: 400;
+  text-shadow: 0px 0px 3px white;
+}
+
+/* Profile image styling */
+.pic {
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.7);
+  border: 4px solid rgb(144, 144, 173);
+}
+
+/* Text block styling */
+h6 {
+  color: white;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-top: 20px;
+  max-width: 100%;
+  text-align: justify;
+  padding-left: 50px;
+}
+
+/* Align and center content */
+.row {
+  margin-top: 30px;
+}
+
+/* Skills section title */
+.skills p {
+  color: white;
+  font-size: 64px;
+  font-weight: 700;
+  margin-left: 2rem;
+  border-left: 0.5rem solid gold;
+  padding-left: 1rem;
   margin-bottom: 10px;
 }
 
-.education-card {
-  border-radius: 8px;
-  padding: 15px;
-  margin-bottom: 10px;
+.skills {
+  padding-top: 5rem;
 }
 
-.education-card h3 {
-  font-size: 22px;
+/* Route links */
+.routes .link {
+  color: gold;
+  font-family: "Irish Grover", cursive;
+  font-weight: 500;
+  font-size: 18px;
+  text-shadow: 0px 0px 6px white;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.routes .link:hover {
+  color: #e6ac00;
+}
+
+span {
+  color: white;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+/* Updated styling for the icons to match the second one */
+.row .col-md-4 img {
+  width: 100px;
+  height: 100px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.row .col-md-4 p {
+  font-size: 18px;
   font-weight: 600;
-  margin-bottom: 8px;
+  color: gold;
+  margin-top: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: "Irish Grover", system-ui;
 }
 
-.education-card p.lead {
-  margin-bottom: 4px;
+.row .col-md-4:hover img {
+  transform: scale(1.1);
+  filter: drop-shadow(0px 0px 12px rgba(255, 255, 255, 0.8));
 }
 
-.education-card p.details {
-  font-size: 15px;
+/* Ensure the same spacing for icons as the second code */
+.row .col-md-4 {
+  margin-bottom: 20px;
 }
 
+/* Responsive adjustments */
 @media (max-width: 768px) {
-  .col-md-3, .col-md-9 {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 15px;
+  .skills-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skills p {
+    font-size: 36px;
+  }
+
+  .border {
+    width: 80%;
+  }
+
+  .row .col-md-4 p {
+    font-size: 14px;
+  }
+
+  .row .col-md-4 img {
+    width: 60px;
+    height: 60px;
   }
 }
 
 @media (max-width: 320px) {
-  .resume p {
-    font-size: 32px; /* Adjust font size for smaller screens */
-    margin-left: 1rem; /* Adjust margin */
+  .content {
+    flex-direction: column-reverse;
+  }
+
+  .about p, .skills p {
+    font-size: 32px;
+    border-left: 0.3rem solid gold;
+
+  }
+
+  .quotep {
+    font-size: 18px;
+  }
+
+  h6 {
+    font-size: 12px;
+    padding-left: 0;
+  }
+
+  .pic {
+    width: 150px;
+    height: 200px;
   }
 
   .border {
-    width: 100%; /* Full width for the divider */
-    margin: 15px auto; /* Adjust margin */
+    width: 90%;
   }
 
-  .head {
-    font-size: 24px; /* Adjust font size for smaller screens */
+  .routes .link {
+    font-size: 14px;
   }
 
-  .education-card h3 {
-    font-size: 18px; /* Adjust font size for smaller screens */
+  .row .col-md-3 p {
+    font-size: 14px;
   }
 
-  .education-card p.details {
-    font-size: 13px; /* Adjust font size for smaller screens */
+  .row .col-md-3 img {
+    width: 60px;
+    height: 60px;
   }
 }
 
 </style>
+

@@ -1,7 +1,7 @@
 <template>
   <div class="row align-items-center justify-content-center">
     <div class="col-md-6 text-center">
-      <img src="https://keirakistensamy.github.io/images/images/IMG_4215.jpg" width="400px" height="450px" class="image">
+      <img src="https://keirakistensamy.github.io/images/images/IMG_4215.jpg" width="400px" height="450px" class="image" loading="lazy">
     </div>
     <div class="col-md-6 text-center">
       <h1>I am <span>Keira Kistensamy</span></h1>

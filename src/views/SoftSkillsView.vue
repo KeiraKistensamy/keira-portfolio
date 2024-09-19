@@ -99,7 +99,7 @@
   }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 320px) {
   .resume p {
     font-size: 32px; /* Adjust font size for smaller screens */
     margin-left: 1rem; /* Adjust margin */

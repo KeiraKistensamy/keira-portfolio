@@ -230,7 +230,7 @@ export default {};
   border-color: #004085;
 }
 
-@media (max-width: 300px) {
+@media (max-width: 320px) {
   .projects p {
     font-size: 32px;
     margin-left: 1rem;

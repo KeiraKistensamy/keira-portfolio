@@ -290,7 +290,7 @@ span {
     height: 300px;
   }
 }
-@media (max-width: 300px) {
+@media (max-width: 320px) {
   .content {
     flex-direction: column-reverse;
   }

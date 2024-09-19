@@ -113,7 +113,7 @@
     margin-bottom: 15px;
   }
 }
-@media (max-width: 300px) {
+@media (max-width: 320px) {
   .resume p {
     font-size: 32px;
     margin-left: 1rem;

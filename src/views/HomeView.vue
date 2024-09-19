@@ -309,7 +309,7 @@ strong {
     width: 80%; /* Increase the width for mobile view */
   }
 }
-@media (max-width: 300px) {
+@media (max-width: 320px) {
   .col-md-6 {
     margin-bottom: 10px; /* Adjust margin for tight spaces */
   }

@@ -71,6 +71,21 @@ export default {
   width: 80%;
 }
 
+/* Route links */
+.routes .link {
+  color: gold;
+  font-family: "Irish Grover", cursive;
+  font-weight: 500;
+  font-size: 18px;
+  text-shadow: 0px 0px 6px white;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.routes .link:hover {
+  color: #e6ac00;
+}
+
 .container {
   color: white;
   padding: 10px 20px;

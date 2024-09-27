@@ -1,11 +1,12 @@
 <template>
-  <div class="contact">
+  <div class="contact" data-aos="fade-up">
     <p>Contact Me</p>
   </div>
   <div class="border"></div>
   <div class="container mt-5">
     <div class="row">
-      <div class="col-md-6">
+      <!-- Left Column (Form) -->
+      <div class="col-md-6" data-aos="fade-right">
         <div class="contact-form">
           <form id="contactForm" action="https://formspree.io/f/movaqpjb" method="POST">
             <div class="form-group">
@@ -27,7 +28,9 @@
           </form>
         </div>
       </div>
-      <div class="col-md-6">
+      
+      <!-- Right Column (Contact Info) -->
+      <div class="col-md-6" data-aos="fade-left" data-aos-offset="200">
         <div class="contact-info">
           <h4>Phone me:</h4>
           <div class="d-flex align-items-center mb-3">
@@ -46,7 +49,7 @@
           </div>
           <h4>My GitHub:</h4>
           <div class="d-flex align-items-center mb-3">
-            <img src="https://keirakistensamy.github.io/capstoneImg/images/githubIcon8.png" width="50" height="50" alt="Home Icon"/>
+            <img src="https://keirakistensamy.github.io/capstoneImg/images/githubIcon8.png" width="50" height="50" alt="GitHub Icon"/>
             <span class="info ms-2">KeiraKistensamy</span>
           </div>
         </div>
@@ -55,12 +58,21 @@
   </div>
 </template>
 
-
 <script>
-export default {
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
+export default {
+  mounted() {
+    AOS.init({
+      duration: 1000, // Animation duration
+      once: true,     // Animation happens only once
+      offset: 120,    // Trigger animation when 120px away from the viewport
+    });
+  }
 }
 </script>
+
 <style scoped>
 .contact p {
   color: white;
@@ -77,7 +89,6 @@ export default {
   border-bottom: 0.5rem solid gold;
   width: 80%;
 }
-
 /* Form and contact info styling */
 .container {
   padding: 2rem;
@@ -188,7 +199,7 @@ export default {
   font-size: 30px;
   font-weight: 700;
   margin-left: 1rem;
-  border-left: 0.3rem solid gold;
+  border-left: 0.5rem solid gold;
   padding-left: 1rem;
 }
 

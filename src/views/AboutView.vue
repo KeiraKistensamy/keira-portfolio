@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div class="about" data-aos="fade-up">
     <p>About Me</p>
   </div>
   <div class="border"></div>
@@ -7,7 +7,7 @@
     <h5 class="quotep lead">"Designing with passion, creating with precision."</h5>
   </div>
   <div class="row align-items-center justify-content-center">
-    <div class="col-md-6 text-center text-md-left">
+    <div class="col-md-6 text-center text-md-left" data-aos="fade-right">
       <h6>
         I, Keira Kistensamy, am weaving my story with creativity, passion, and purpose. I matriculated in the year 2022 and decided to take a gap year to pursue small passions. I studied fashion design in 2023 and completed my course. With curiosity and a mind full of ideas, it took some time to brainstorm what I truly wanted to do.
       </h6>
@@ -21,23 +21,23 @@
       </h6>
     </div>
 
-    <div class="col-md-6 text-center">
+    <div class="col-md-6 text-center" data-aos="fade-left">
       <img src="https://keirakistensamy.github.io/images/images/IMG_4215.jpg" width="350px" height="400px" class="pic">
     </div>
   </div>
 
-    <div class="skills">
+    <div class="skills" data-aos="fade-up">
     <p>My Skills </p>
     </div>
 
 
-  <div class="routes d-flex justify-content-center mb-0 pb-2">
+  <div class="routes d-flex justify-content-center mb-0 pb-2" data-aos="fade-up">
     <router-link to="/about" class="link px-2">Technical Skills</router-link>
     <span>|</span>
     <router-link to="/softskills" class="link px-2">Soft Skills</router-link>
   </div>
 
-<div class="row justify-content-center text-center">
+<div class="row justify-content-center text-center" data-aos="fade-up">
   <div class="col-md-3">
     <img src="https://keirakistensamy.github.io/capstoneImg/images/icons8-bootstrap-64.png" width="100px" height="100px">
     <p>Bootstrap</p>
@@ -56,7 +56,7 @@
   </div>
 </div>
 
-<div class="row justify-content-center text-center">
+<div class="row justify-content-center text-center" data-aos="fade-up">
   <div class="col-md-3">
     <img src="https://keirakistensamy.github.io/capstoneImg/images/icons8-javascript-64.png" width="100px" height="100px">
     <p>Javascript</p>
@@ -76,6 +76,17 @@
 </div>
 
 </template>
+
+<script>
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+export default {
+  mounted() {
+    AOS.init(); // Initialize AOS when component is mounted
+  }
+}
+</script>
 
 <style scoped>
 /* Overall container styling */
@@ -297,7 +308,7 @@ span {
 
   .about p, .skills p {
     font-size: 32px;
-    border-left: 0.3rem solid gold;
+    border-left: 0.5rem solid gold;
 
   }
 
@@ -316,7 +327,8 @@ span {
   }
 
   .border {
-    width: 90%;
+    width: 100%;
+    margin: 15px auto;
   }
 
   .routes .link {

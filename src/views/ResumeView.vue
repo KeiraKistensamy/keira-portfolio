@@ -1,27 +1,27 @@
 <template>
-  <div class="resume">
+  <div class="resume" data-aos="fade-up">
     <p>My Resume</p>
   </div>
   <div class="border"></div>
   <div class="container my-0 py-0">
-    <div class="routes d-flex justify-content-center mb-0 pb-2">
+    <div class="routes d-flex justify-content-center mb-0 pb-2" data-aos="fade-in">
       <router-link to="/resume" class="link px-2">Education</router-link> 
       <span>|</span>
       <router-link to="/experience" class="link px-2">Work Experience</router-link>
     </div>
 
     <div class="row">
-      <div class="col-md-3 text-center">
+      <div class="col-md-3 text-center" data-aos="fade-right">
         <h1 class="head">Education</h1>
       </div>
 
       <div class="col-md-9">
-        <div class="education-card">
+        <div class="education-card" data-aos="fade-left">
           <h3>Spine Road High School</h3>
           <p class="lead">2018 - 2022</p>
         </div>
 
-        <div class="education-card">
+        <div class="education-card" data-aos="fade-left">
           <h3>School of Fashion</h3>
           <p class="lead">2023</p>
           <p class="details">In 2023, I completed four fashion courses in pattern making and sewing, gaining expertise in creating custom patterns and bringing designs to life through skilled sewing techniques.</p>

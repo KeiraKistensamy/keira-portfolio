@@ -1,44 +1,57 @@
 <template>
-<div class="resume">
-  <p>My Resume</p>
-</div>
-<div class="border"></div>
-  
+  <div class="resume" data-aos="fade-up">
+    <p>My Resume</p>
+  </div>
+  <div class="border"></div>
+
   <div class="container my-0 py-0">
-    <div class="routes d-flex justify-content-center mb-0 pb-2">
+    <div class="routes d-flex justify-content-center mb-0 pb-2" data-aos="fade-in">
       <router-link to="/resume" class="link px-2">Education</router-link> 
       <span>|</span>
       <router-link to="/experience" class="link px-2">Work Experience</router-link>
     </div>
 
     <div class="row">
-      <div class="col-md-3 text-center">
+      <div class="col-md-3 text-center" data-aos="fade-right">
         <h1 class="head">Work Experience</h1>
       </div>
 
       <div class="col-md-9">
-        <div class="experience-card">
+        <div class="experience-card" data-aos="fade-left">
           <h3>Life Choices Academy</h3>
           <p class="lead">Duration: April 2024 - current</p>
           <p class="duty">I am currently pursuing a study in web development. This field encompasses a range of skills and technologies crucial for creating and maintaining websites and web applications.</p>
         </div>
-        
-        <div class="experience-card">
+
+        <div class="experience-card" data-aos="fade-left">
           <h3>Volunteered at a Primary School</h3>
           <p class="lead">Duration: February 2024 - April 2024</p>
           <p class="duty">Handled planning, finance, registers, etc.</p>
         </div>
 
-        <div class="experience-card">
+        <div class="experience-card" data-aos="fade-left">
           <h3>Pedal Power Association (PPA)</h3>
           <p class="lead">Duration: Part-time during 2023</p>
           <p class="duty">Ensured all cyclists were registered and handed out medals after the race.</p>
         </div>
-
       </div>
     </div>
   </div>
 </template>
+
+<script>
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+export default {
+  mounted() {
+    AOS.init({
+      duration: 1000, // Animation duration
+      once: true,     // Animation happens only once
+    });
+  }
+}
+</script>
 
 <style scoped>
 
@@ -57,7 +70,6 @@
   border-bottom: 0.5rem solid gold;
   width: 80%;
 }
-
 
 .container {
   color: white;
@@ -117,6 +129,8 @@
   .resume p {
     font-size: 32px;
     margin-left: 1rem;
+    border-left: 0.5rem solid gold;
+
   }
 
   .border {

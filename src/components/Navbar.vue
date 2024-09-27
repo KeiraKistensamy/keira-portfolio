@@ -7,7 +7,7 @@
       <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
         <ul class="navbar-nav">
           <!-- Your name above the links -->
-          <li class="nav-item">
+          <li class="nav-items">
             <a class="navbar-brand keira" href="#">Keira Kistensamy</a>
           </li>
 
@@ -81,6 +81,10 @@ p {
 .navbar-darkblue .nav-link,
 .navbar-darkblue.scrolled .nav-link {
   text-decoration: none;
+}
+
+.nav-items {
+  float: left;
 }
 
 /* Add spacing between nav links */

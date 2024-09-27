@@ -1,5 +1,5 @@
 <template>
-  <div class="projects">
+  <div class="projects" data-aos="fade-up">
     <p>My Projects</p>
   </div>
   <div class="border"></div>
@@ -7,7 +7,7 @@
   <!-- Top row -->
   <div class="row">
     <div class="col-md-4">
-      <div class="card project-card">
+      <div class="card project-card" data-aos="fade-up" >
         <img
           src="https://keirakistensamy.github.io/capstoneImg/images/KeiraPetStation.png"
           class="card-img-top"
@@ -28,7 +28,7 @@
     </div>
 
     <div class="col-md-4">
-      <div class="card project-card">
+      <div class="card project-card" data-aos="fade-up">
         <img
           src="https://keirakistensamy.github.io/images/images/KeiraSwegga.png"
           class="card-img-top"
@@ -49,7 +49,7 @@
     </div>
 
     <div class="col-md-4">
-      <div class="card project-card">
+      <div class="card project-card" data-aos="fade-up">
         <img
           src="https://keirakistensamy.github.io/images/images/KeiraKeyboard.png"
           class="card-img-top"
@@ -73,7 +73,7 @@
   <!-- Bottom row centered in middle with 3 cards -->
   <div class="row justify-content-center">
     <div class="col-md-4">
-      <div class="card project-card">
+      <div class="card project-card" data-aos="fade-up">
         <img
           src="https://keirakistensamy.github.io/images/images/KeiraToDoList.png"
           class="card-img-top"
@@ -94,7 +94,7 @@
     </div>
 
     <div class="col-md-4">
-      <div class="card project-card">
+      <div class="card project-card" data-aos="fade-up">
         <img
           src="https://keirakistensamy.github.io/images/images/KeiraECom.png"
           class="card-img-top"
@@ -115,7 +115,7 @@
     </div>
 
     <div class="col-md-4">
-      <div class="card project-card">
+      <div class="card project-card" data-aos="fade-up">
         <img
           src="https://keirakistensamy.github.io/images/images/KeiraTemperature.png"
           class="card-img-top"
@@ -138,7 +138,17 @@
 </template>
 
 <script>
-export default {};
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+export default {
+  mounted() {
+    AOS.init({
+      duration: 1000, // Animation duration
+      once: true,     // Animation happens only once
+    });
+  }
+}
 </script>
 
 <style scoped>
@@ -147,16 +157,15 @@ export default {};
   font-size: 64px;
   font-weight: 700;
   margin-left: 2rem;
-  border-left: 0.4rem solid gold;
+  border-left: 0.5rem solid gold;
   padding-left: 1rem;
 }
 
 .border {
-  margin: 20px auto;
-  border-bottom: 0.4rem solid gold;
+  margin: 30px auto;
+  border-bottom: 0.5rem solid gold;
   width: 80%;
 }
-
 .row {
   display: flex;
   justify-content: space-between;
@@ -235,6 +244,7 @@ export default {};
     font-size: 32px;
     margin-left: 1rem;
     padding-left: 0.5rem;
+    border-left: 0.5rem solid gold;
   }
 
   .border {

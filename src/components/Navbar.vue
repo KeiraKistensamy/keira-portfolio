@@ -88,6 +88,8 @@ export default {
 /* Style for active and hover states */
 .navbar-darkblue .nav-link {
   color: #ffffff; /* White text for default state */
+  font-family: 'Irish Grover', cursive;
+  font-size: 1rem;
 }
 
 .navbar-darkblue .nav-link:hover {

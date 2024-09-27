@@ -6,7 +6,7 @@
     <div class="col-md-6 text-center">
       <p class="h1">I am <span>Keira Kistensamy</span></p>
       <p class="text0">and I am an aspiring frontend developer</p>
-      <p class="text1 lead">
+      <p class="text1">
         With a passion for creating clean, responsive, and user-friendly web experiences.
         This space showcases my journey, projects, and skills as I continue to grow and explore
         the world of web development.
@@ -58,25 +58,24 @@
   width: 100%;
   font-family: 'Irish Grover', cursive;
   margin-bottom: 20px;
-  animation: fadeInUp 1.5s ease-out;
 }
 
 .text0 {
-  font-size: 30px;
   color: white;
-  font-family: "Italiana", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  animation: fadeIn 1.8s ease-out;
+  font-size: 30px;
+  margin-top: 10px;
+  text-align: justify;
+  font-weight: 500;
+
 }
 
 .text1 {
-  font-size: 18px;
   color: white;
-  max-width: 80%;
-  margin-bottom: 20px;
-  line-height: 1.5;
-  animation: fadeIn 2s ease-out;
+  font-size: 18px;
+  margin-top: 10px;
+  width: 80%;
+  text-align: justify;
+  font-weight: 500;
 }
 
 /* Span (Name) special styling */

@@ -215,7 +215,6 @@ span {
   font-weight: 600;
   color: gold;
   margin-top: 10px;
-  /* text-shadow: 0px 0px 6px rgba(255, 255, 255, 0.5); */
   letter-spacing: 1px;
   text-transform: uppercase;
   font-family: "Irish Grover", system-ui;

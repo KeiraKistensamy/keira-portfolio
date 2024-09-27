@@ -1,7 +1,7 @@
 <template>
   <div class="row align-items-center justify-content-center">
     <div class="col-md-6 text-center">
-      <img src="https://keirakistensamy.github.io/images/images/IMG_4215.jpg" width="400px" height="450px" class="image" loading="lazy">
+      <img src="https://keirakistensamy.github.io/images/images/IMG_4215.jpg" class="image" loading="lazy" />
     </div>
     <div class="col-md-6 text-center">
       <p class="h1">I am <span>Keira Kistensamy</span></p>
@@ -20,8 +20,10 @@
 .row {
   height: 100vh; /* Full viewport height */
   display: flex;
-  align-items: center; /* Vertically center content */
-  justify-content: center; /* Horizontally center content */
+  align-items: center;
+  justify-content: center;
+  /* background: linear-gradient(135deg, #1d2671, #c33764); */
+  animation: gradient_301 8s ease infinite;
 }
 
 /* Center text and image in each column */
@@ -31,13 +33,22 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  animation: fadeIn 1s ease-in-out;
 }
 
-/* Specific styles for the image */
+/* Image styling */
 .image {
-  border-radius: 50%;
-  box-shadow: 0px 0px 10px rgb(255, 255, 255);
+  width: 400px;
+  height: 450px;
+  border-radius: 40%;
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.7);
   border: 5px solid rgb(144, 144, 173);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image:hover {
+  transform: scale(1.05); /* Slight scaling on hover */
+  box-shadow: 0px 0px 30px rgba(255, 255, 255, 1);
 }
 
 /* Text styling */
@@ -45,6 +56,9 @@
   font-size: 58px;
   color: white;
   width: 100%;
+  font-family: 'Irish Grover', cursive;
+  margin-bottom: 20px;
+  animation: fadeInUp 1.5s ease-out;
 }
 
 .text0 {
@@ -53,6 +67,7 @@
   font-family: "Italiana", sans-serif;
   font-weight: 400;
   font-style: normal;
+  animation: fadeIn 1.8s ease-out;
 }
 
 .text1 {
@@ -60,56 +75,40 @@
   color: white;
   max-width: 80%;
   margin-bottom: 20px;
-
+  line-height: 1.5;
+  animation: fadeIn 2s ease-out;
 }
 
-/* Fixed border-top styling */
-.border-top {
-  border-top: 5px solid #ccc;
-  width: 70%; /* Adjust the width to fit the container */
-  margin: 20px auto; /* Center the border with margin */
-}
-
-/* Routes navigation link styling */
-.routes {
-  padding-top: 10px;
-}
-
-.router-link {
-  color: #f39c12;
-  text-decoration: none;
-  font-weight: 500;
-}
-
-.router-link:hover {
-  color: #e67e22;
-}
-
-span{
+/* Span (Name) special styling */
+span {
   color: gold;
   font-family: "Irish Grover", system-ui;
   font-weight: 400;
   font-style: normal;
-  text-shadow: 0 0 3px white;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+  animation: pulse_3011 2s infinite; /* Pulse animation on name */
 }
 
-@keyframes animStar {
+/* Keyframe Animations */
+@keyframes fadeIn {
   from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
     transform: translateY(0);
   }
-
-  to {
-    transform: translateY(-135rem);
-  }
 }
 
-@keyframes animStarRotate {
+@keyframes fadeInUp {
   from {
-    transform: rotate(360deg);
+    opacity: 0;
+    transform: translateY(50px);
   }
-
   to {
-    transform: rotate(0);
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
@@ -117,11 +116,9 @@ span{
   0% {
     background-position: 0% 50%;
   }
-
   50% {
     background-position: 100% 50%;
   }
-
   100% {
     background-position: 0% 50%;
   }
@@ -129,33 +126,23 @@ span{
 
 @keyframes pulse_3011 {
   0% {
-    transform: scale(0.75);
-    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
-  }
-
-  70% {
     transform: scale(1);
-    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
   }
-
+  50% {
+    transform: scale(1.05);
+  }
   100% {
-    transform: scale(0.75);
-    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    transform: scale(1);
   }
 }
 
-
-/* Ensure responsive design for smaller screens */
+/* Responsive design for smaller screens */
 @media (max-width: 768px) {
-  .col-md-6 {
-    margin-bottom: 20px;
+  .h1 {
+    font-size: 38px;
   }
 
-  h1 {
-    font-size: 28px;
-  }
-
-  .text {
+  .text0 {
     font-size: 24px;
   }
 
@@ -168,44 +155,24 @@ span{
     width: 250px;
     height: 300px;
   }
-
-  /* Adjust border-top for smaller screens */
-  .border-top {
-    width: 80%; /* Increase the width for mobile view */
-  }
 }
+
 @media (max-width: 320px) {
-  .col-md-6 {
-    margin-bottom: 10px; /* Adjust margin for tight spaces */
+  .h1 {
+    font-size: 32px;
   }
+
   .text0 {
-    font-size: 18px; /* Reduce subtitle size */
+    font-size: 20px;
   }
 
   .text1 {
-    font-size: 12px; /* Adjust body text size */
-    max-width: 100%;
+    font-size: 14px;
   }
 
   .image {
-    width: 180px; /* Smaller image for tight screens */
-    height: 220px; /* Adjust height */
-  }
-
-  .border-top {
-    width: 90%; /* Make the border span wider */
-  }
-
-  .btn {
-    width: 9rem; /* Smaller button */
-    height: 2rem; /* Adjust height */
-    font-size: 8px; /* Adjust font size */
-  }
-  span {
-    font-size: 40px;
-  }
-  .h1 {
-    font-size: 40px;
+    width: 180px;
+    height: 220px;
   }
 }
 </style>

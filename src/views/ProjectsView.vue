@@ -7,7 +7,7 @@
   <!-- Top row -->
   <div class="row">
     <div class="col-md-4">
-      <div class="card project-card" data-aos="fade-up" >
+      <div class="card project-card" data-aos="fade-up">
         <img
           src="https://keirakistensamy.github.io/capstoneImg/images/KeiraPetStation.png"
           class="card-img-top"
@@ -135,6 +135,42 @@
       </div>
     </div>
   </div>
+
+  <div class="case" data-aos="fade-up">
+    <p>Case Studies</p>
+  </div>
+
+  <div class="border"></div>
+
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card hack-card case-study" data-aos="fade-up">
+        <img
+          src="/img/icons/images (1).png"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Product Development Hackathon</h5>
+          <div class="button-group">
+            <router-link to="/CaseStudy1">View</router-link>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card hack-card case-study" data-aos="fade-up">
+        <img src="/img/icons/images (1).png" class="card-img-top" alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">UI/UX Hackathon</h5>
+          <div class="button-group">
+            <router-link to="/CaseStudy2">View</router-link>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>  
 </template>
 
 <script>
@@ -160,6 +196,15 @@ export default {
   border-left: 0.5rem solid gold;
   padding-left: 1rem;
 }
+.case p {
+  color: white;
+  font-size: 64px;
+  font-weight: 700;
+  margin-left: 2rem;
+  border-left: 0.5rem solid gold;
+  padding-left: 1rem;
+  margin-top: 1rem;
+}
 
 .border {
   margin: 30px auto;
@@ -178,9 +223,32 @@ export default {
   border-radius: 8px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   margin-bottom: 15px;
-  width: 90%;
-  min-height: 350px;
+  width: 80%; /* Adjust this value to set the width */
+  max-width: 350px; /* Set a max width to keep them from being too wide */
+  height: 350px; /* Set a fixed height for uniformity */
   border: 1px solid rgb(41, 41, 54);
+  display: flex;
+  flex-direction: column; /* Keep content stacked vertically */
+}
+
+.col-md-6 {
+  display: flex;               /* Add Flexbox to center */
+  justify-content: center;     /* Center items horizontally */
+  align-items: center;         /* Center items vertically */
+}
+
+.hack-card {
+  background-color: #e2e6ec;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 15px;
+  width: 80%; /* Adjust this value to set the width */
+  max-width: 350px; /* Set a max width to keep them from being too wide */
+  height: 250px; /* Set a fixed height for uniformity */
+  border: 1px solid rgb(41, 41, 54);
+  display: flex;
+  justify-content: center;
+  flex-direction: column; /* Keep content stacked vertically */
 }
 
 .project-card:hover {
@@ -191,7 +259,7 @@ export default {
 .card-img-top {
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
-  height: 150px;
+  height: 150px; /* Set a specific height */
   object-fit: cover;
 }
 
@@ -273,5 +341,4 @@ export default {
     padding: 0.25rem 0.5rem;
   }
 }
-
 </style>

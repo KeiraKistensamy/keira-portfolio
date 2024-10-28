@@ -36,6 +36,16 @@ const routes = [
     name: 'contact',
     component: () => import('../views/ContactView.vue')
   },
+  {
+    path: '/CaseStudy1',
+    name: 'CaseStudy1',
+    component: () => import('../views/CaseStudy1.vue')
+  },
+  {
+    path: '/CaseStudy2',
+    name: 'CaseStudy2',
+    component: () => import('../views/CaseStudy2.vue')
+  },
 ]
 
 const router = createRouter({

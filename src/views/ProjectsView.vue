@@ -136,6 +136,7 @@
     </div>
   </div>
 
+  <!-- Case Study -->
   <div class="case" data-aos="fade-up">
     <p>Case Studies</p>
   </div>
@@ -171,6 +172,32 @@
       </div>
     </div>
   </div>  
+
+ <!-- Badges -->
+ <div class="case" data-aos="fade-up">
+    <p>Badges</p>
+  </div>
+
+  <div class="border"></div>
+
+  <div class="badges-container d-flex justify-content-evenly">
+    <div class="badge-item" data-aos="fade-up">
+      <img src="https://keirakistensamy.github.io/newimg/image/Linux.png" alt="Linux" width="180px" height="180px">
+      <p class="desc">Linux</p>
+    </div>
+    <div class="badge-item" data-aos="fade-up">
+      <img src="https://keirakistensamy.github.io/newimg/image/OSB.png" alt="OSB" width="180px" height="180px">
+      <p class="desc">Operating System Basics</p>
+    </div>
+    <div class="badge-item" data-aos="fade-up">
+      <img src="https://keirakistensamy.github.io/newimg/image/Network1.png" alt="Networking1" width="180px" height="180px">
+      <p class="desc">Networking</p>
+    </div>
+    <div class="badge-item" data-aos="fade-up">
+      <img src="https://keirakistensamy.github.io/newimg/image/network2.png" alt="Networking2" width="180px" height="180px">
+      <p class="desc">Networking</p>
+    </div>
+  </div>
 </template>
 
 <script>
@@ -188,6 +215,7 @@ export default {
 </script>
 
 <style scoped>
+
 .projects p {
   color: white;
   font-size: 64px;
@@ -196,6 +224,7 @@ export default {
   border-left: 0.5rem solid gold;
   padding-left: 1rem;
 }
+
 .case p {
   color: white;
   font-size: 64px;
@@ -211,6 +240,7 @@ export default {
   border-bottom: 0.5rem solid gold;
   width: 80%;
 }
+
 .row {
   display: flex;
   justify-content: space-between;
@@ -223,8 +253,7 @@ export default {
   border-radius: 8px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   margin-bottom: 15px;
-  width: 80%; /* Adjust this value to set the width */
-  max-width: 350px; /* Set a max width to keep them from being too wide */
+  width: 100%; /* Adjust this value to set the width */
   height: 350px; /* Set a fixed height for uniformity */
   border: 1px solid rgb(41, 41, 54);
   display: flex;
@@ -307,6 +336,54 @@ export default {
   border-color: #004085;
 }
 
+.badges-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.badge-item img {
+    width: 100%;
+    max-width: 180px;
+}
+
+.badge-item {
+  transition: transform 0.6s ease, box-shadow 0.6s ease; /* Adjust the duration here */
+}
+
+.badge-item:hover {
+  transform: scale(1.05);
+}
+
+.border {
+    height: 2px;
+    background-color: #ccc;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center; /* Center buttons horizontally */
+  gap: 10px; /* Space between the buttons */
+  margin-top: auto; /* Push the buttons to the bottom of the card */
+}
+
+.project-card {
+    margin-bottom: 30px;
+}
+
+.tech-stack {
+    font-style: italic;
+    color: #555;
+}
+
+.desc{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+/* Media query for 320px */
 @media (max-width: 320px) {
   .projects p {
     font-size: 32px;
@@ -317,7 +394,11 @@ export default {
 
   .border {
     width: 100%;
-    margin: 10px auto;
+    margin: 15px auto;
+  }
+
+  .card{
+    width: 100%;
   }
 
   .card-img-top {
@@ -339,6 +420,26 @@ export default {
   .btn-primary {
     font-size: 0.7rem;
     padding: 0.25rem 0.5rem;
+  }
+
+  .case p{
+    font-size: 32px;
+    margin-left: 1rem;
+    padding-left: 0.5rem;
+    border-left: 0.5rem solid gold;  }
+
+  /* Center project cards on mobile */
+  .row {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* Center project cards on larger screens (desktop view) */
+@media (min-width: 1024px) {
+  .row {
+    justify-content: center;
+    align-items: center;
   }
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div class="row align-items-center justify-content-center">
-    <div class="col-md-6 text-center">
+    <div class="img col-md-6 text-center">
       <img src="https://keirakistensamy.github.io/images/images/IMG_4215.jpg" class="image" loading="lazy" />
     </div>
     <div class="col-md-6 text-center">
@@ -16,6 +16,7 @@
 </template>
 
 <style scoped>
+
 /* Full height and center alignment for the row */
 .row {
   height: 100vh; /* Full viewport height */
@@ -40,8 +41,8 @@
 .image {
   width: 400px;
   height: 450px;
-  border-radius: 40%;
-  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.7);
+  border-radius: 30%;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.7);
   border: 5px solid rgb(144, 144, 173);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -57,7 +58,7 @@
   color: white;
   width: 100%;
   font-family: 'Irish Grover', cursive;
-  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .text0 {
@@ -140,6 +141,9 @@ span {
   .h1 {
     font-size: 38px;
   }
+  .img {
+  margin-top: 30px;
+}
 
   .text0 {
     font-size: 24px;
@@ -160,13 +164,17 @@ span {
   .h1 {
     font-size: 32px;
   }
-
+  .img {
+  margin-top: 30px;
+}
   .text0 {
     font-size: 20px;
+    width: 70%;
   }
 
   .text1 {
     font-size: 14px;
+    margin-bottom: 50px;
   }
 
   .image {

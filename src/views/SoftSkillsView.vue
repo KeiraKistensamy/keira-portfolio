@@ -26,10 +26,9 @@
     </div>
   </div>
 
-    <div class="skills" data-aos="fade-up">
-    <p>My Skills </p>
-    </div>
-
+  <div class="skills" data-aos="fade-up">
+    <p>My Skills</p>
+  </div>
 
   <div class="routes d-flex justify-content-center mb-0 pb-2" data-aos="fade-up">
     <router-link to="/about" class="link px-2">Technical Skills</router-link>
@@ -37,36 +36,35 @@
     <router-link to="/softskills" class="link px-2">Soft Skills</router-link>
   </div>
 
-<div class="row justify-content-center text-center" data-aos="fade-up">
-  <div class="col-md-4">
-    <img src="https://keirakistensamy.github.io/capstoneImg/images/icons8-clock-64.png" width="100px" height="100px">
-    <p>Time Management</p>
+  <div class="row justify-content-center text-center" data-aos="fade-up">
+    <div class="col-md-4">
+      <img src="https://keirakistensamy.github.io/capstoneImg/images/icons8-clock-64.png" width="100px" height="100px">
+      <p>Time Management</p>
+    </div>
+    <div class="col-md-4">
+      <img src="https://keirakistensamy.github.io/capstoneImg/images/icons8-communication-64.png" width="100px" height="100px">
+      <p>Communication</p>
+    </div>
+    <div class="col-md-4">
+      <img src="https://keirakistensamy.github.io/capstoneImg/images/icons8-problem-solving-64.png" width="100px" height="100px">
+      <p>Problem Solving</p>
+    </div>
   </div>
-  <div class="col-md-4">
-    <img src="https://keirakistensamy.github.io/capstoneImg/images/icons8-communication-64.png" width="100px" height="100px">
-    <p>Communication</p>
-  </div>
-  <div class="col-md-4">
-    <img src="https://keirakistensamy.github.io/capstoneImg/images/icons8-problem-solving-64.png" width="100px" height="100px">
-    <p>Problem Solving</p>
-  </div>
-</div>
 
-<div class="row justify-content-center text-center" data-aos="fade-up">
-  <div class="col-md-4">
-    <img src="https://keirakistensamy.github.io/capstoneImg/images/icons8-teamwork-64.png" width="100px" height="100px">
-    <p>Teamwork</p>
+  <div class="row justify-content-center text-center" data-aos="fade-up">
+    <div class="col-md-4">
+      <img src="https://keirakistensamy.github.io/capstoneImg/images/icons8-teamwork-64.png" width="100px" height="100px">
+      <p>Teamwork</p>
+    </div>
+    <div class="col-md-4">
+      <img src="https://keirakistensamy.github.io/capstoneImg/images/icons8-system-optimization-78.png" width="100px" height="100px">
+      <p>Adaptability</p>
+    </div>
+    <div class="col-md-4">
+      <img src="https://keirakistensamy.github.io/capstoneImg/images/icons8-creativity-50.png" width="100px" height="100px">
+      <p>Creativity</p>
+    </div>
   </div>
-  <div class="col-md-4">
-    <img src="https://keirakistensamy.github.io/capstoneImg/images/icons8-system-optimization-78.png" width="100px" height="100px">
-    <p>Adaptability</p>
-  </div>
-  <div class="col-md-4">
-    <img src="https://keirakistensamy.github.io/capstoneImg/images/icons8-creativity-50.png" width="100px" height="100px">
-    <p>Creativity</p>
-  </div>
-</div>
-
 </template>
 
 <style scoped>
@@ -106,7 +104,7 @@
   border: 4px solid rgb(144, 144, 173);
 }
 
-/* Text block styling */
+/* Text block styling with spacing */
 h6 {
   color: white;
   font-size: 18px;
@@ -115,11 +113,12 @@ h6 {
   max-width: 100%;
   text-align: justify;
   padding-left: 50px;
+  margin-bottom: 20px; /* Adds space between text and image */
 }
 
-/* Align and center content */
-.row {
-  margin-top: 30px;
+/* Align and center content with extra top spacing */
+.row.align-items-center {
+  margin-top: 40px;
 }
 
 /* Skills section title */
@@ -158,7 +157,7 @@ span {
   margin: 0 10px;
 }
 
-/* Updated styling for the icons to match the second one */
+/* Updated styling for the icons */
 .row .col-md-4 img {
   width: 100px;
   height: 100px;
@@ -180,7 +179,7 @@ span {
   filter: drop-shadow(0px 0px 12px rgba(255, 255, 255, 0.8));
 }
 
-/* Ensure the same spacing for icons as the second code */
+/* Spacing between icon sections */
 .row .col-md-4 {
   margin-bottom: 20px;
 }
@@ -208,6 +207,14 @@ span {
     width: 60px;
     height: 60px;
   }
+
+  .row.align-items-center {
+    margin-top: 30px;
+  }
+
+  h6 {
+    margin-bottom: 15px;
+  }
 }
 
 @media (max-width: 320px) {
@@ -218,7 +225,6 @@ span {
   .about p, .skills p {
     font-size: 32px;
     border-left: 0.3rem solid gold;
-
   }
 
   .quotep {
@@ -228,6 +234,10 @@ span {
   h6 {
     font-size: 12px;
     padding-left: 0;
+    margin-left: 0;
+    text-align: center;
+    border-left: none;
+    margin-bottom: 10px;
   }
 
   .pic {
@@ -252,6 +262,4 @@ span {
     height: 60px;
   }
 }
-
 </style>
-

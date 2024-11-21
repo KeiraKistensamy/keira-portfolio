@@ -13,11 +13,11 @@
 
           <!-- Centered navigation links -->
           <ul class="navbar-nav mx-auto">
-            <router-link to="/"><li class="nav-item"><a class="nav-link" aria-current="page" href="#">Home</a></li></router-link>
-            <router-link to="/about"><li class="nav-item"><a class="nav-link" href="#">About</a></li></router-link>
-            <router-link to="/resume"><li class="nav-item"><a class="nav-link" href="#">Education & Experience</a></li></router-link>
-            <router-link to="/projects"><li class="nav-item"><a class="nav-link" href="#">Projects</a></li></router-link>
-            <router-link to="/contact"><li class="nav-item"><a class="nav-link" href="#">Contact</a></li></router-link>
+            <router-link to="/" @click="collapseNavbar"><li class="nav-item"><a class="nav-link" aria-current="page" href="#">Home</a></li></router-link>
+            <router-link to="/about" @click="collapseNavbar"><li class="nav-item"><a class="nav-link" href="#">About</a></li></router-link>
+            <router-link to="/resume" @click="collapseNavbar"><li class="nav-item"><a class="nav-link" href="#">Education & Experience</a></li></router-link>
+            <router-link to="/projects" @click="collapseNavbar"><li class="nav-item"><a class="nav-link" href="#">Projects</a></li></router-link>
+            <router-link to="/contact" @click="collapseNavbar"><li class="nav-item"><a class="nav-link" href="#">Contact</a></li></router-link>
           </ul>
         </div>
       </div>
@@ -38,6 +38,16 @@ export default {
         navbar.classList.add('scrolled');
       } else {
         navbar.classList.remove('scrolled');
+      }
+    },
+    // Method to collapse the navbar when a link is clicked
+    collapseNavbar() {
+      const navbarCollapse = document.getElementById('navbarNav');
+      const navbarToggler = document.querySelector('.navbar-toggler');
+
+      // Check if the navbar is open (expanded)
+      if (navbarCollapse.classList.contains('show')) {
+        navbarToggler.click();  // This simulates clicking the toggle button to close the navbar
       }
     }
   }
@@ -119,6 +129,10 @@ export default {
     color: white;
   }
 
+  .navbar-collapse {
+    transition: height 0.5s ease; /* Increase the transition time to make it smoother */
+  }
+
   /* Ensure name and nav items are centered in mobile view */
   .keira {
     margin: 0 auto;
@@ -126,6 +140,11 @@ export default {
 
   .navbar-nav {
     text-align: center;
+  }
+  .navbar-toggler-icon {
+    background-color: white; /* Make the menu button white */
+    float: right;
+    width: 35px;
   }
 }
 

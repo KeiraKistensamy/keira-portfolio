@@ -3,9 +3,9 @@
     <div class="container-fluid">
       <!-- Navbar Toggler for mobile view -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <!-- <span class="navbar-toggler-icon"></span> -->
+        <img src="https://keirakistensamy.github.io/newimg/image/icons8-menu-64.png" alt="Linux" style="width: 50px;">
       </button>
-
       <div class="collapse navbar-collapse" id="navbarNav">
         <div class="d-flex w-100 align-items-center">
           <!-- Left-aligned name "Keira Kistensamy" -->

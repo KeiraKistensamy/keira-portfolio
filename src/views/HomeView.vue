@@ -1,9 +1,9 @@
 <template>
   <div class="row align-items-center justify-content-center">
-    <div class="img col-md-6 text-center">
+    <div class="col-md-6 img-container">
       <img src="https://keirakistensamy.github.io/images/images/IMG_4215.jpg" class="image" loading="lazy" />
     </div>
-    <div class="col-md-6 text-center">
+    <div class="col-md-6 text-container">
       <p class="h1">I am <span>Keira Kistensamy</span></p>
       <p class="text0">and I am an aspiring frontend developer</p>
       <p class="text1">
@@ -11,37 +11,44 @@
         This space showcases my journey, projects, and skills as I continue to grow and explore
         the world of web development.
       </p>
+      <!-- Download CV Button -->
+      <div class="button-group">
+        <a href="https://keirakistensamy.github.io/newimg/KeirasResume.png" download="KeirasResume.png" class="btn btn-primary">View CV</a>
+      </div>
     </div>
   </div>
 </template>
 
-<style scoped>
 
+<style scoped>
 /* Full height and center alignment for the row */
 .row {
   height: 100vh; /* Full viewport height */
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background: linear-gradient(135deg, #1d2671, #c33764); */
+  padding: 0 15px;
   animation: gradient_301 8s ease infinite;
 }
 
-/* Center text and image in each column */
-.col-md-6 {
+/* Image container to push image to the right */
+.img-container {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  animation: fadeIn 1s ease-in-out;
+  justify-content: flex-end;
+  padding-right: 30px; /* Slight margin to push image to the right */
+}
+
+/* Text container adjustments */
+.text-container {
+  text-align: left;
+  max-width: 80%;
 }
 
 /* Image styling */
 .image {
   width: 400px;
   height: 450px;
-  border-radius: 30%;
+  border-radius: 10%;
   box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.7);
   border: 5px solid rgb(144, 144, 173);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -56,7 +63,6 @@
 .h1 {
   font-size: 58px;
   color: white;
-  width: 100%;
   font-family: 'Irish Grover', cursive;
   margin-top: 20px;
 }
@@ -65,17 +71,13 @@
   color: white;
   font-size: 30px;
   margin-top: 10px;
-  text-align: justify;
   font-weight: 500;
-
 }
 
 .text1 {
   color: white;
   font-size: 18px;
   margin-top: 10px;
-  width: 80%;
-  text-align: justify;
   font-weight: 500;
 }
 
@@ -84,34 +86,31 @@ span {
   color: gold;
   font-family: "Irish Grover", system-ui;
   font-weight: 400;
-  font-style: normal;
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
   animation: pulse_3011 2s infinite; /* Pulse animation on name */
 }
 
+/* Custom styling for the download button */
+.button-group {
+  margin-top: 20px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+  font-size: 18px;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 5px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.15);
+}
+
 /* Keyframe Animations */
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(50px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
 @keyframes gradient_301 {
   0% {
     background-position: 0% 50%;
@@ -141,9 +140,6 @@ span {
   .h1 {
     font-size: 38px;
   }
-  .img {
-  margin-top: 30px;
-}
 
   .text0 {
     font-size: 24px;
@@ -151,7 +147,6 @@ span {
 
   .text1 {
     font-size: 16px;
-    max-width: 100%;
   }
 
   .image {
@@ -164,12 +159,9 @@ span {
   .h1 {
     font-size: 32px;
   }
-  .img {
-  margin-top: 30px;
-}
+
   .text0 {
     font-size: 20px;
-    width: 70%;
   }
 
   .text1 {

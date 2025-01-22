@@ -70,7 +70,7 @@
     </div>
   </div>
 
-  <!-- Bottom row centered in middle with 3 cards -->
+  <!-- Middle row centered in middle with 3 cards -->
   <div class="row justify-content-center">
     <div class="col-md-4">
       <div class="card project-card" data-aos="fade-up">
@@ -136,6 +136,115 @@
     </div>
   </div>
 
+  <!-- Third row centered in middle with 3 cards -->
+  <div class="row justify-content-center">
+    <div class="col-md-4">
+      <div class="card project-card" data-aos="fade-up">
+        <img
+          src="https://keirakistensamy.github.io/newimg/Screenshot 2025-01-22 110652.png"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">BMI Calculator</h5>
+          <p class="card-text">
+            A functional BMI Calculator that takes your height and weight to give your BMI.
+          </p>
+          <p class="tech-stack">HTML, CSS, Javascript</p>
+          <div class="button-group">
+            <a href="https://bmi-gold-beta.vercel.app/" target="_blank" class="btn btn-primary">View Project</a>
+            <a href="https://github.com/KeiraKistensamy/BMI.git" target="_blank" class="btn btn-primary">GitHub Link</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card project-card" data-aos="fade-up">
+        <img
+          src="https://keirakistensamy.github.io/newimg/aromabombs.png"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Aroma Bombs</h5>
+          <p class="card-text">
+            Developed a functional e-commerce website that sells bath bombs.
+          </p>
+          <p class="tech-stack">HTML, CSS, Javascript</p>
+          <div class="button-group">
+            <a href="https://nodeprojectfullstack.web.app/" target="_blank" class="btn btn-primary">View Project</a>
+            <a href="https://github.com/sihlandlomak/nodeprojectfullstack.git" target="_blank" class="btn btn-primary">GitHub Link</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card project-card" data-aos="fade-up">
+        <img
+          src="https://keirakistensamy.github.io/images/images/KeiraTemperature.png"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Temperature Convertor</h5>
+          <p class="card-text">
+            A converter that switches temperature between Celsius and Fahrenheit.
+          </p>
+          <p class="tech-stack">HTML, CSS, Javascript</p>
+          <div class="button-group">
+            <a href="https://temperature-converter-lemon.vercel.app/" target="_blank" class="btn btn-primary">View Project</a>
+            <a href="https://github.com/KeiraKistensamy/TemperatureCal.git" target="_blank" class="btn btn-primary">GitHub Link</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- WordPress -->
+  <div class="case" data-aos="fade-up">
+    <p>Wordpress</p>
+  </div>
+
+  <div class="border"></div>
+
+  <div class="row study">
+  <div class="col-md-6">
+    <div class="card hack-card case-study custom-card" data-aos="fade-up">
+      <img
+        src="https://keirakistensamy.github.io/newimg/Screenshot 2025-01-22 112320.png"
+        class="card-img-top"
+        alt="..."
+      />
+      <div class="card-body">
+        <h5 class="card-title">My Portfolio</h5>
+        <p>I replicated a Figma design of a portfolio I made, ensuring that the layout and elements were accurately translated into a functional and visually appealing website.</p>
+        <div class="button-group">
+          <a href="https://dev-keirak.pantheonsite.io/" target="_blank" class="btn btn-primary">View Portfolio</a>
+          <a href="https://www.figma.com/design/DZFSQGqGTybLYed90pPePh/Untitled?node-id=0-1&p=f&t=iCZ8TJy6xIPng1AQ-0" target="_blank" class="btn btn-primary">Figma Link</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="card hack-card case-study custom-card" data-aos="fade-up">
+      <img
+        src="https://keirakistensamy.github.io/newimg/Screenshot 2025-01-22 112358.png"
+        class="card-img-top"
+        alt="..."
+      />
+      <div class="card-body">
+        <h5 class="card-title">My Ecommerce</h5>
+        <p>I developed an eCommerce website by fully customizing a template and integrating it with an API to dynamically fetch and display product data.</p>
+        <div class="button-group">
+          <a href="https://dev-keiraecom.pantheonsite.io/ " target="_blank" class="btn btn-primary">View Ecommerce</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
   <!-- Case Study -->
   <div class="case" data-aos="fade-up">
     <p>Case Studies</p>
@@ -143,7 +252,7 @@
 
   <div class="border"></div>
 
-  <div class="row">
+  <div class="row study">
     <div class="col-md-6">
       <div class="card hack-card case-study" data-aos="fade-up">
         <img
@@ -191,11 +300,11 @@
     </div>
     <div class="badge-item" data-aos="fade-up">
       <img src="https://keirakistensamy.github.io/newimg/image/Network1.png" alt="Networking1" width="180px" height="180px">
-      <p class="desc">Networking</p>
+      <p class="desc">Networking TCP</p>
     </div>
     <div class="badge-item" data-aos="fade-up">
       <img src="https://keirakistensamy.github.io/newimg/image/network2.png" alt="Networking2" width="180px" height="180px">
-      <p class="desc">Networking</p>
+      <p class="desc">Networking DIC</p>
     </div>
   </div>
 </template>
@@ -248,6 +357,10 @@ export default {
   margin: 0 auto;
 }
 
+.study{
+  width: 100%;
+}
+
 .project-card {
   background-color: #e2e6ec;
   border-radius: 8px;
@@ -278,6 +391,11 @@ export default {
   display: flex;
   justify-content: center;
   flex-direction: column; /* Keep content stacked vertically */
+}
+
+.hack-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .project-card:hover {
@@ -381,6 +499,34 @@ export default {
     color: white;
     display: flex;
     justify-content: center;
+}
+
+/* Wordpress */
+
+.custom-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.custom-card .card-body {
+  padding: 20px;
+}
+
+.custom-card .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.custom-card .button-group {
+  margin-top: auto; /* Ensures the button is at the bottom of the card */
+}
+
+.custom-card:hover{
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+
 }
 
 /* Media query for 320px */

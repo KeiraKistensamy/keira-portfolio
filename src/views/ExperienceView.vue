@@ -19,7 +19,11 @@
       <div class="col-md-9">
         <div class="experience-card" data-aos="fade-left">
           <h3>Life Choices Studio</h3>
-          <p class="lead">Duration: 25 September 2024 - current</p>
+          <h6>Web Developer</h6>
+          <p class="lead">Duration: 06 January 2025 - current</p>
+          <p class="duty">I am currently studying web development at Life Choices Studio, focusing on essential skills and technologies for designing, building, and managing websites, with a particular emphasis on WordPress development.</p>
+          <h6>Networking</h6>
+          <p class="lead">Duration: 25 September 2024 - 12 December 2024</p>
           <p class="duty">I am currently studying networking at Life Choices Studio, focusing on essential skills and technologies for designing, securing, and managing computer networks.</p>
         </div>
 

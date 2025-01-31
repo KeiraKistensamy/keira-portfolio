@@ -9,9 +9,8 @@
   <div class="row align-items-center justify-content-center">
     <div class="col-md-6 text-center text-md-left" data-aos="fade-right">
       <h6>
-        I, Keira Kistensamy, am weaving my story with creativity, passion, and purpose. I matriculated in the year 2022 and decided to take a gap year to pursue small passions. I studied fashion design in 2023 and completed my course. With curiosity and a mind full of ideas, it took some time to brainstorm what I truly wanted to do.
+        I, Keira Kistensamy, weave my story with creativity, passion, and purpose. After matriculating in 2022, I took a gap year to explore my passions. In 2023, I completed a fashion design course. With curiosity and a mind full of ideas, I took time to discover my true path.
       </h6>
-
       <h6>
         I am a dedicated individual committed to making a positive impact in both my personal and professional life. My unwavering determination propels me forward in my journey of growth and self-discovery. My energy and kindness leave a mark on those who cross paths with me, making me a cherished member of any community.
       </h6>

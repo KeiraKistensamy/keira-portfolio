@@ -263,7 +263,7 @@
         <div class="card-body">
           <h5 class="card-title">Product Development Hackathon</h5>
           <div class="button-group">
-            <router-link to="/CaseStudy1">View</router-link>
+            <router-link to="/CaseStudy1" class="btn btn-primary">View</router-link>
           </div>
         </div>
       </div>
@@ -275,7 +275,7 @@
         <div class="card-body">
           <h5 class="card-title">UI/UX Hackathon</h5>
           <div class="button-group">
-            <router-link to="/CaseStudy2">View</router-link>
+            <router-link to="/CaseStudy2" class="btn btn-primary">View</router-link>
           </div>
         </div>
       </div>
@@ -288,7 +288,7 @@
   </div>
 
   <div class="border"></div>
-
+  
   <div class="badges-container d-flex justify-content-evenly">
     <div class="badge-item" data-aos="fade-up">
       <img src="https://keirakistensamy.github.io/newimg/image/Linux.png" alt="Linux" width="180px" height="180px">
@@ -306,6 +306,27 @@
       <img src="https://keirakistensamy.github.io/newimg/image/network2.png" alt="Networking2" width="180px" height="180px">
       <p class="desc">Networking DIC</p>
     </div>
+  </div>
+
+  <div class="badges-container p-3 d-flex justify-content-evenly">
+  
+    <div class="badge-item" data-aos="fade-up">
+      <img src="/src/assets/figma.png" alt="Linux" width="180px" height="180px">
+      <p class="desc">UX/UI Hackathon</p>
+    </div>
+    <div class="badge-item" data-aos="fade-up">
+      <img src="/src/assets/WordPress.png" alt="OSB" width="180px" height="180px">
+      <p class="desc">WordPress Portfolio</p>
+    </div>
+    <!-- <div class="badge-item" data-aos="fade-up">
+      <img src="https://keirakistensamy.github.io/newimg/image/Network1.png" alt="Networking1" width="180px" height="180px">
+      <p class="desc">Networking TCP</p>
+    </div>
+    <div class="badge-item" data-aos="fade-up">
+      <img src="https://keirakistensamy.github.io/newimg/image/network2.png" alt="Networking2" width="180px" height="180px">
+      <p class="desc">Networking DIC</p> -->
+    <!-- </div>   -->
+  
   </div>
 </template>
 

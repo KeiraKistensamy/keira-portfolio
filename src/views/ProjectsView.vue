@@ -308,7 +308,7 @@
     </div>
   </div>
 
-  <div class="badges-container p-3 d-flex justify-content-evenly">
+  <!-- <div class="badges-container p-3 d-flex justify-content-evenly">
   
     <div class="badge-item" data-aos="fade-up">
       <img src="/src/assets/figma.png" alt="Linux" width="180px" height="180px">
@@ -317,7 +317,7 @@
     <div class="badge-item" data-aos="fade-up">
       <img src="/src/assets/WordPress.png" alt="OSB" width="180px" height="180px">
       <p class="desc">WordPress Portfolio</p>
-    </div>
+    </div> -->
     <!-- <div class="badge-item" data-aos="fade-up">
       <img src="https://keirakistensamy.github.io/newimg/image/Network1.png" alt="Networking1" width="180px" height="180px">
       <p class="desc">Networking TCP</p>
@@ -327,7 +327,7 @@
       <p class="desc">Networking DIC</p> -->
     <!-- </div>   -->
   
-  </div>
+  <!-- </div> -->
 </template>
 
 <script>

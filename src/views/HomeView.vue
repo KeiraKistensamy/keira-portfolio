@@ -21,9 +21,13 @@
 
 
 <style scoped>
+
+body{
+  margin-top: 20px;
+}
 /* Full height and center alignment for the row */
 .row {
-  height: 100vh; /* Full viewport height */
+  height: 90vh; /* Full viewport height */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -35,7 +39,7 @@
 .img-container {
   display: flex;
   justify-content: flex-end;
-  padding-right: 30px; /* Slight margin to push image to the right */
+  padding-right: 100px; /* Slight margin to push image to the right */
 }
 
 /* Text container adjustments */

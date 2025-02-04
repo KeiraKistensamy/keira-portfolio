@@ -43,7 +43,7 @@ export default {
   }
 
   footer {
-    height: 20vh;
+    height: 10vh;
     text-align: center;
     padding: 10px;
     border-top: 2px solid gray;

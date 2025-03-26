@@ -70,7 +70,11 @@ export default {
 }
 
 .btn{
-  background-color: rgb(155, 153, 39);
+  background-color: gold;
+}
+
+.button-group :hover{
+  background-color: white;
 }
 
 /* Styling the name "Keira Kistensamy" */

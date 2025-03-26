@@ -17,14 +17,19 @@
 
       <div class="col-md-9">
         <div class="education-card" data-aos="fade-left">
-          <h3>Spine Road High School</h3>
-          <p class="lead">2018 - 2022</p>
+          <h3>Life Choices Academy</h3>
+          <p class="lead">Duration: 02 April 2024 - 20 September 2024</p>
+          <p class="duty">I pursued a study in web development. This field encompasses a range of skills and technologies crucial for creating and maintaining websites and web applications.</p>
         </div>
-
         <div class="education-card" data-aos="fade-left">
           <h3>School of Fashion</h3>
           <p class="lead">2023</p>
           <p class="details">In 2023, I completed four fashion courses in pattern making and sewing, gaining expertise in creating custom patterns and bringing designs to life through skilled sewing techniques.</p>
+        </div>
+        <div class="education-card" data-aos="fade-left">
+          <h3>Spine Road High School</h3>
+          <p class="lead">2018 - 2022</p>
+          <!-- <p class="details">NSC - Bachelors Pass</p> -->
         </div>
       </div>
     </div>

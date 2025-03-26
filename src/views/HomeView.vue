@@ -1,20 +1,16 @@
 <template>
   <div class="row align-items-center justify-content-center">
-    <div class="col-md-6 img-container">
-      <img src="https://keirakistensamy.github.io/images/images/IMG_4215.jpg" class="image" loading="lazy" />
-    </div>
     <div class="col-md-6 text-container">
       <p class="h1">I am <span>Keira Kistensamy</span></p>
-      <p class="text0">and I am an aspiring frontend developer</p>
+      <p class="text0">Junior Frontend Developer</p>
       <p class="text1">
         With a passion for creating clean, responsive, and user-friendly web experiences.
         This space showcases my journey, projects, and skills as I continue to grow and explore
         the world of web development.
       </p>
-      <!-- Download CV Button -->
-      <div class="button-group">
-        <a href="https://keirakistensamy.github.io/newimg/KeirasResume.png" download="KeirasResume.png" class="btn btn-primary">View CV</a>
-      </div>
+    </div>
+    <div class="col-md-6 img-container">
+      <img src="https://keirakistensamy.github.io/images/images/IMG_4215.jpg" class="image" loading="lazy" />
     </div>
   </div>
 </template>
@@ -45,16 +41,17 @@ body{
 /* Text container adjustments */
 .text-container {
   text-align: left;
-  max-width: 80%;
+  max-width: 40%;
+  /* margin-left: 20px; */
 }
 
 /* Image styling */
 .image {
   width: 400px;
   height: 450px;
-  border-radius: 10%;
+  /* border-radius: 10%; */
   box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.7);
-  border: 5px solid rgb(144, 144, 173);
+  border: 2px solid rgb(144, 144, 173);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -92,11 +89,6 @@ span {
   font-weight: 400;
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
   animation: pulse_3011 2s infinite; /* Pulse animation on name */
-}
-
-/* Custom styling for the download button */
-.button-group {
-  margin-top: 20px;
 }
 
 .btn-primary {

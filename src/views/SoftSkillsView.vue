@@ -9,20 +9,17 @@
   <div class="row align-items-center justify-content-center">
     <div class="col-md-6 text-center text-md-left">
       <h6>
-        I, Keira Kistensamy, am weaving my story with creativity, passion, and purpose. I matriculated in the year 2022 and decided to take a gap year to pursue small passions. I studied fashion design in 2023 and completed my course. With curiosity and a mind full of ideas, it took some time to brainstorm what I truly wanted to do.
+        I, Keira Kistensamy, am passionate and creative driven with a deep curiosity for innovation and problem-solving. After matriculating in 2022, I took a transformative gap year to explore my interests, completing a fashion design course before realizing that my true passion lay in the ever-evolving world of technology.
       </h6>
-
       <h6>
-        I am a dedicated individual committed to making a positive impact in both my personal and professional life. My unwavering determination propels me forward in my journey of growth and self-discovery. My energy and kindness leave a mark on those who cross paths with me, making me a cherished member of any community.
+        Eager to grow and make a meaningful impact, I completed my Software Development training at Life Choices Academy and am now further refining my skills at Life Choices Studio. This journey has strengthened my ability to think critically, adapt to challenges, and collaborate effectively.
       </h6>
-
       <h6>
-        Currently, I am a student at Life Choices Academy, studying Software Development. With a thirst for knowledge and a passion for excellence, I strive to unlock my full potential and make the most of every opportunity.
+        With an insatiable thirst for knowledge and a commitment to excellence, I continuously seek opportunities to expand my expertise, push boundaries, and contribute meaningfully to the tech industry.      
       </h6>
     </div>
-
     <div class="col-md-6 text-center">
-      <img src="https://keirakistensamy.github.io/images/images/IMG_4215.jpg" width="350px" height="400px" class="pic">
+      <img src="https://keirakistensamy.github.io/capstoneImg/images/IMG_4686.jpg" width="350px" height="400px" class="pic">
     </div>
   </div>
 

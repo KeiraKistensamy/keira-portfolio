@@ -21,16 +21,10 @@
           <h3>Life Choices Studio</h3>
           <h6>Web Developer</h6>
           <p class="lead">Duration: 06 January 2025 - current</p>
-          <p class="duty">I am currently studying web development at Life Choices Studio, focusing on essential skills and technologies for designing, building, and managing websites, with a particular emphasis on WordPress development.</p>
+          <p class="duty">I am currently studying web development at Life Choices Studio, focusing on essential skills and technologies for designing, building, and managing websites, with a particular emphasis on WordPress development</p>
           <h6>Networking</h6>
           <p class="lead">Duration: 25 September 2024 - 12 December 2024</p>
-          <p class="duty">I am currently studying networking at Life Choices Studio, focusing on essential skills and technologies for designing, securing, and managing computer networks.</p>
-        </div>
-
-        <div class="experience-card" data-aos="fade-left">
-          <h3>Life Choices Academy</h3>
-          <p class="lead">Duration: 02 April 2024 - 20 September 2024</p>
-          <p class="duty">I pursued a study in web development. This field encompasses a range of skills and technologies crucial for creating and maintaining websites and web applications.</p>
+          <p class="duty">I studied networking at Life Choices Studio, focusing on essential skills and technologies for designing, securing, and managing computer networks.</p>
         </div>
 
         <div class="experience-card" data-aos="fade-left">

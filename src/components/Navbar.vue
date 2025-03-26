@@ -18,6 +18,10 @@
             <router-link to="/resume" @click="collapseNavbar"><li class="nav-item"><a class="nav-link" href="#">Education & Experience</a></li></router-link>
             <router-link to="/projects" @click="collapseNavbar"><li class="nav-item"><a class="nav-link" href="#">Projects</a></li></router-link>
             <router-link to="/contact" @click="collapseNavbar"><li class="nav-item"><a class="nav-link" href="#">Contact</a></li></router-link>
+            <!-- Download CV Button -->
+              <div class="button-group">
+                <a href="https://keirakistensamy.github.io/capstoneImg/images/Keira Kistensamy CV.pdf" download="KeirasResume.png" class="btn" target="_blank"><img src="https://keirakistensamy.github.io/capstoneImg/images/icons8-download-100.png " width="30px" height="30px"> my CV</a>
+              </div>
           </ul>
         </div>
       </div>
@@ -59,6 +63,14 @@ export default {
 .navbar-darkblue {
   background-color: rgb(9, 9, 51); /* Dark blue background */
   transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.button-group{
+  margin-left: 20px;
+}
+
+.btn{
+  background-color: rgb(155, 153, 39);
 }
 
 /* Styling the name "Keira Kistensamy" */
@@ -112,6 +124,7 @@ export default {
 .navbar-darkblue .navbar-brand {
   transition: color 0.3s ease, background-color 0.3s ease;
 }
+
 
 /* Collapsed navbar for mobile */
 @media (max-width: 991.98px) {

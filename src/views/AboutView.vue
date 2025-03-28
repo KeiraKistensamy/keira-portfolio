@@ -324,7 +324,7 @@ span {
   .about p, .skills p {
     font-size: 32px;
     border-left: 0.5rem solid gold;
-
+    text-align: left;
   }
 
   .quotep {

@@ -1,144 +1,127 @@
 <template>
-  <div class="row align-items-center justify-content-center">
-    <div class="col-md-6 text-container">
-      <p class="h1">I am <span>Keira Kistensamy</span></p>
-      <p class="text0">Junior Frontend Developer</p>
-      <p class="text1">
-        With a passion for creating clean, responsive, and user-friendly web experiences.
-        This space showcases my journey, projects, and skills as I continue to grow and explore
-        the world of web development.
-      </p>
-    </div>
-    <div class="col-md-6 img-container">
-      <img src="https://keirakistensamy.github.io/images/images/IMG_4215.jpg" class="image" loading="lazy" />
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6 text-container">
+        <p class="h1">I am <span>Keira Kistensamy</span></p>
+        <p class="text0">Junior Frontend Developer</p>
+        <p class="text1">
+          With a passion for creating clean, responsive, and user-friendly web experiences.
+          This space showcases my journey, projects, and skills as I continue to grow and explore
+          the world of web development.
+        </p>
+      </div>
+      <div class="col-md-6 img-container">
+        <img src="https://keirakistensamy.github.io/images/images/IMG_4215.jpg" class="image" loading="lazy" />
+      </div>
     </div>
   </div>
 </template>
 
-
 <style scoped>
-
-body{
+body {
   margin-top: 20px;
+  background: #121212;
+  color: white;
 }
-/* Full height and center alignment for the row */
-.row {
-  height: 90vh; /* Full viewport height */
+
+/* Container adjustments */
+.container {
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 15px;
-  animation: gradient_301 8s ease infinite;
+  padding: 20px;
 }
 
-/* Image container to push image to the right */
+/* Row setup */
+.row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+/* Image container */
 .img-container {
   display: flex;
-  justify-content: flex-end;
-  padding-right: 100px; /* Slight margin to push image to the right */
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
 }
 
 /* Text container adjustments */
 .text-container {
   text-align: left;
-  max-width: 40%;
-  /* margin-left: 20px; */
+  max-width: 500px;
+  padding: 20px;
 }
 
 /* Image styling */
 .image {
-  width: 400px;
-  height: 450px;
-  /* border-radius: 10%; */
-  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.7);
+  width: 100%;
+  max-width: 400px;
+  height: auto;
   border: 2px solid rgb(144, 144, 173);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.7);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .image:hover {
-  transform: scale(1.05); /* Slight scaling on hover */
+  transform: scale(1.05);
   box-shadow: 0px 0px 30px rgba(255, 255, 255, 1);
 }
 
-/* Text styling */
+/* Text styles */
 .h1 {
-  font-size: 58px;
-  color: white;
+  font-size: 48px;
   font-family: 'Irish Grover', cursive;
-  margin-top: 20px;
+  margin-bottom: 10px;
+  color: white;
 }
 
 .text0 {
-  color: white;
-  font-size: 30px;
-  margin-top: 10px;
+  font-size: 26px;
   font-weight: 500;
+  color: white;
 }
 
 .text1 {
-  color: white;
   font-size: 18px;
-  margin-top: 10px;
   font-weight: 500;
+  color: white;
 }
 
-/* Span (Name) special styling */
+/* Highlighted name */
 span {
   color: gold;
-  font-family: "Irish Grover", system-ui;
   font-weight: 400;
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
-  animation: pulse_3011 2s infinite; /* Pulse animation on name */
+  animation: pulse 2s infinite;
 }
 
-.btn-primary {
-  background-color: #007bff;
-  color: white;
-  font-size: 18px;
-  padding: 12px 24px;
-  text-decoration: none;
-  border-radius: 5px;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+/* Keyframe animation */
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
 }
 
-.btn-primary:hover {
-  background-color: #0056b3;
-  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.15);
-}
-
-/* Keyframe Animations */
-@keyframes gradient_301 {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
-@keyframes pulse_3011 {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.05);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-
-/* Responsive design for smaller screens */
+/* Responsive adjustments */
 @media (max-width: 768px) {
+  .text-container {
+    text-align: center;
+    max-width: 100%;
+  }
+
   .h1 {
-    font-size: 38px;
+    font-size: 36px;
   }
 
   .text0 {
-    font-size: 24px;
+    font-size: 22px;
   }
 
   .text1 {
@@ -146,28 +129,53 @@ span {
   }
 
   .image {
-    width: 250px;
-    height: 300px;
+    max-width: 280px;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 480px) {
   .h1 {
-    font-size: 32px;
+    font-size: 30px;
   }
 
   .text0 {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .text1 {
     font-size: 14px;
-    margin-bottom: 50px;
   }
 
   .image {
-    width: 180px;
-    height: 220px;
+    max-width: 220px;
+  }
+}
+
+/* Specific styles for 320px screens */
+@media (max-width: 320px) {
+  .h1 {
+    font-size: 28px;
+  }
+
+  .text0 {
+    font-size: 16px;
+  }
+
+  .text1 {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  .image {
+    max-width: 180px;
+  }
+
+  .text-container {
+    padding: 10px;
+  }
+
+  .img-container {
+    padding: 10px;
   }
 }
 </style>

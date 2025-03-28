@@ -1,28 +1,31 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-darkblue sticky-top">
     <div class="container-fluid">
-      <!-- Navbar Toggler for mobile view -->
+      <!-- Navbar Toggler for Mobile -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <!-- <span class="navbar-toggler-icon"></span> -->
-        <img src="https://keirakistensamy.github.io/newimg/image/icons8-menu-64.png" alt="Linux" style="width: 50px;">
+        <img src="https://keirakistensamy.github.io/newimg/image/icons8-menu-64.png" alt="Menu" class="menu-icon">
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <div class="d-flex w-100 align-items-center">
-          <!-- Left-aligned name "Keira Kistensamy" -->
-          <a class="navbar-brand keira me-auto" href="#">Keira Kistensamy</a>
 
-          <!-- Centered navigation links -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="d-flex w-100 align-items-center flex-column">
+          <!-- Centered Name for Mobile -->
+          <a class="navbar-brand keira" href="#">Keira Kistensamy</a>
+
+          <!-- Navigation Links -->
           <ul class="navbar-nav mx-auto">
-            <router-link to="/" @click="collapseNavbar"><li class="nav-item"><a class="nav-link" aria-current="page" href="#">Home</a></li></router-link>
+            <router-link to="/" @click="collapseNavbar"><li class="nav-item"><a class="nav-link" href="#">Home</a></li></router-link>
             <router-link to="/about" @click="collapseNavbar"><li class="nav-item"><a class="nav-link" href="#">About</a></li></router-link>
             <router-link to="/resume" @click="collapseNavbar"><li class="nav-item"><a class="nav-link" href="#">Education & Experience</a></li></router-link>
             <router-link to="/projects" @click="collapseNavbar"><li class="nav-item"><a class="nav-link" href="#">Projects</a></li></router-link>
             <router-link to="/contact" @click="collapseNavbar"><li class="nav-item"><a class="nav-link" href="#">Contact</a></li></router-link>
-            <!-- Download CV Button -->
-              <div class="button-group">
-                <a href="https://keirakistensamy.github.io/capstoneImg/images/Keira Kistensamy CV.pdf" download="KeirasResume.png" class="btn" target="_blank"><img src="https://keirakistensamy.github.io/capstoneImg/images/icons8-download-100.png " width="30px" height="30px"> my CV</a>
-              </div>
           </ul>
+
+          <!-- Download CV Button -->
+          <div class="button-group">
+            <a href="https://keirakistensamy.github.io/capstoneImg/images/Keira Kistensamy CV.pdf" download="KeirasResume.png" class="btn" target="_blank">
+              <img src="https://keirakistensamy.github.io/capstoneImg/images/icons8-download-100.png" class="download-icon"> My CV
+            </a>
+          </div>
         </div>
       </div>
     </div>
@@ -44,14 +47,11 @@ export default {
         navbar.classList.remove('scrolled');
       }
     },
-    // Method to collapse the navbar when a link is clicked
     collapseNavbar() {
       const navbarCollapse = document.getElementById('navbarNav');
       const navbarToggler = document.querySelector('.navbar-toggler');
-
-      // Check if the navbar is open (expanded)
       if (navbarCollapse.classList.contains('show')) {
-        navbarToggler.click();  // This simulates clicking the toggle button to close the navbar
+        navbarToggler.click();
       }
     }
   }
@@ -59,110 +59,121 @@ export default {
 </script>
 
 <style scoped>
-/* Dark blue background and white text color for the navbar */
+
+/* Navbar Base Styles */
 .navbar-darkblue {
-  background-color: rgb(9, 9, 51); /* Dark blue background */
-  transition: background-color 0.3s ease; /* Smooth transition for background color */
+  background-color: rgb(9, 9, 51);
+  transition: background-color 0.3s ease;
 }
 
-.button-group{
-  margin-left: 20px;
-}
-
-.btn{
-  background-color: gold;
-}
-
-.button-group :hover{
-  background-color: white;
-}
-
-/* Styling the name "Keira Kistensamy" */
+/* Name Styling */
 .keira {
   font-size: 1.5rem;
   font-family: "Irish Grover", system-ui;
   font-weight: 400;
   color: gold;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6); /* Add shadow for better visibility */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
   text-align: center;
 }
 
-/* Styles for the navbar when scrolling */
-.navbar-darkblue.scrolled {
-  background-color: rgba(255, 255, 255, 0.9); /* White background with slight opacity */
-  color: #000; /* Black text color */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add shadow for better separation */
-}
-
-/* Black text color when scrolled */
-.navbar-darkblue.scrolled .navbar-brand,
-.navbar-darkblue.scrolled .nav-link {
-  color: #000;
-}
-
-/* Remove underline from links */
-.navbar-darkblue .nav-link,
-.navbar-darkblue.scrolled .nav-link {
-  text-decoration: none;
-}
-
-/* Add spacing between nav links */
-.navbar-darkblue .nav-link {
-  margin: 0 1rem; /* Horizontal spacing between links */
-}
-
-/* Style for active and hover states */
-.navbar-darkblue .nav-link {
-  color: #ffffff; /* White text for default state */
-  font-family: 'Irish Grover', cursive;
+/* Navbar Links */
+.navbar-nav .nav-link {
+  color: white;
   font-size: 1rem;
+  font-family: 'Irish Grover', cursive;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
 }
 
-.navbar-darkblue .nav-link:hover {
-  color: #f0f0f0; /* Light gray on hover */
-  background-color: #002244; /* Slightly darker blue on hover */
+.navbar-nav .nav-link:hover {
+  color: #f0f0f0;
+  background-color: #002244;
 }
 
-/* Optional: Add transition effects for smoother hover */
-.navbar-darkblue .nav-link,
-.navbar-darkblue .navbar-brand {
-  transition: color 0.3s ease, background-color 0.3s ease;
+/* CV Button */
+.button-group {
+  margin-top: 10px;
 }
 
+.btn {
+  background-color: gold;
+  color: black;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  width: 120px;
+}
 
-/* Collapsed navbar for mobile */
-@media (max-width: 991.98px) {
-  .navbar-darkblue .navbar-collapse {
-    background-color: rgb(9, 9, 51); /* Dark blue background for mobile view */
-  }
-  
-  .navbar-darkblue.scrolled {
-    background-color: rgb(9, 9, 51);
-    color: white;
-  }
-  
-  .navbar-darkblue.scrolled .navbar-brand,
-  .navbar-darkblue.scrolled .nav-link {
-    color: white;
-  }
+.btn:hover {
+  background-color: white;
+}
 
+/* CV Download Icon */
+.download-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+/* Menu Icon */
+.menu-icon {
+  width: 40px;
+  height: 40px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 991px) {
   .navbar-collapse {
-    transition: height 0.5s ease; /* Increase the transition time to make it smoother */
-  }
-
-  /* Ensure name and nav items are centered in mobile view */
-  .keira {
-    margin: 0 auto;
+    background-color: rgb(9, 9, 51);
+    text-align: center;
+    width: 100%;
   }
 
   .navbar-nav {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
   }
-  .navbar-toggler-icon {
-    background-color: white; /* Make the menu button white */
-    float: right;
-    width: 35px;
+
+  .nav-item {
+    width: 100%;
+  }
+
+  .keira {
+    margin: 10px 0;
   }
 }
 
+/* **Mobile Optimization for 320px** */
+@media (max-width: 320px) {
+  .keira {
+    font-size: 1.2rem;
+  }
+
+  .navbar-toggler {
+    padding: 5px;
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 14px;
+    padding: 8px 10px;
+  }
+
+  .btn {
+    width: 100px;
+    font-size: 14px;
+    padding: 8px 10px;
+  }
+
+  .download-icon {
+    width: 18px;
+    height: 18px;
+  }
+}
 </style>

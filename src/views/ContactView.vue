@@ -8,7 +8,7 @@
       <!-- Left Column (Form) -->
       <div class="col-md-6" data-aos="fade-right">
         <div class="contact-form">
-          <form id="contactForm" action="https://formspree.io/f/movaqpjb" method="POST">
+          <form id="contactForm" action="https://formspree.io/f/xvgkqldq" method="POST">
             <div class="form-group">
               <input type="text" class="form-control" name="Firstname" placeholder="Enter your first name" autocomplete="off" required>
             </div>
@@ -89,10 +89,7 @@ export default {
   border-bottom: 0.5rem solid gold;
   width: 80%;
 }
-/* Form and contact info styling */
-.container {
-  padding: 2rem;
-}
+
 
 .contact-form .form-group {
     font-family: "Irish Grover", system-ui;

@@ -305,7 +305,7 @@
   <div class="border"></div>
 
   <div class="row justify-content-center study">
-    <div class="col-md-4">
+    <div class="col-md-6">
       <div class="card hack-card case-study custom-card" data-aos="fade-up">
         <img
           src="https://keirakistensamy.github.io/newimg/Screenshot 2025-01-22 112320.png"
@@ -336,32 +336,7 @@
         </div>
       </div>
     </div>
-    <div class="col-md-4">
-      <div class="card hack-card case-study custom-card" data-aos="fade-up">
-        <img
-          src="https://keirakistensamy.github.io/newimg/Screenshot 2025-01-22 112358.png"
-          class="card-img-top"
-          alt="..."
-        />
-        <div class="card-body">
-          <h5 class="card-title">My Ecommerce</h5>
-          <p>
-            I developed an eCommerce website by fully customizing a template and
-            integrating it with an API to dynamically fetch and display product
-            data.
-          </p>
-          <div class="button-group">
-            <a
-              href="https://dev-keiraecom.pantheonsite.io/ "
-              target="_blank"
-              class="btn btn-primary"
-              >View Ecommerce</a
-            >
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4">
+    <div class="col-md-6">
       <div class="card hack-card case-study custom-card" data-aos="fade-up">
         <img
           src="https://keirakistensamy.github.io/newimg/Screenshot 2025-01-22 112358.png"

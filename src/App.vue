@@ -32,11 +32,11 @@ main {
   margin: 0;
   padding: 0;
   max-width: 100%;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 html, body {
   width: 100%;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 </style>

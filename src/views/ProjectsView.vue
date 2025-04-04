@@ -20,8 +20,18 @@
           </p>
           <p class="tech-stack">HTML, CSS, VueJS, NodeJs</p>
           <div class="button-group">
-            <a href="https://keira-eomp.web.app/" target="_blank" class="btn btn-primary">View Project</a>
-            <a href="https://github.com/KeiraKistensamy/PetStation.git" target="_blank" class="btn btn-primary">GitHub Link</a>
+            <a
+              href="https://keira-eomp.web.app/"
+              target="_blank"
+              class="btn btn-primary"
+              >View Project</a
+            >
+            <a
+              href="https://github.com/KeiraKistensamy/PetStation.git"
+              target="_blank"
+              class="btn btn-primary"
+              >GitHub Link</a
+            >
           </div>
         </div>
       </div>
@@ -37,12 +47,23 @@
         <div class="card-body">
           <h5 class="card-title">Swegga</h5>
           <p class="card-text">
-            A project where users can choose a color of an item, quantity, and it calculates the total automatically.
+            A project where users can choose a color of an item, quantity, and
+            it calculates the total automatically.
           </p>
           <p class="tech-stack">HTML, CSS, JavaScript</p>
           <div class="button-group">
-            <a href="https://swegga-keira.vercel.app/" target="_blank" class="btn btn-primary">View Project</a>
-            <a href="https://github.com/KeiraKistensamy/Swegga.Keira.git" target="_blank" class="btn btn-primary">GitHub Link</a>
+            <a
+              href="https://swegga-keira.vercel.app/"
+              target="_blank"
+              class="btn btn-primary"
+              >View Project</a
+            >
+            <a
+              href="https://github.com/KeiraKistensamy/Swegga.Keira.git"
+              target="_blank"
+              class="btn btn-primary"
+              >GitHub Link</a
+            >
           </div>
         </div>
       </div>
@@ -62,8 +83,18 @@
           </p>
           <p class="tech-stack">HTML, CSS</p>
           <div class="button-group">
-            <a href="https://keyboard-five-ecru.vercel.app/" target="_blank" class="btn btn-primary">View Project</a>
-            <a href="https://github.com/KeiraKistensamy/Keyboard.git" target="_blank" class="btn btn-primary">GitHub Link</a>
+            <a
+              href="https://keyboard-five-ecru.vercel.app/"
+              target="_blank"
+              class="btn btn-primary"
+              >View Project</a
+            >
+            <a
+              href="https://github.com/KeiraKistensamy/Keyboard.git"
+              target="_blank"
+              class="btn btn-primary"
+              >GitHub Link</a
+            >
           </div>
         </div>
       </div>
@@ -82,12 +113,23 @@
         <div class="card-body">
           <h5 class="card-title">To Do List</h5>
           <p class="card-text">
-            A functional to-do list that allows sorting, adding, and removing tasks.
+            A functional to-do list that allows sorting, adding, and removing
+            tasks.
           </p>
           <p class="tech-stack">HTML, CSS, Javascript</p>
           <div class="button-group">
-            <a href="https://todo-list-liart-alpha.vercel.app/" target="_blank" class="btn btn-primary">View Project</a>
-            <a href="https://github.com/KeiraKistensamy/todoList.git" target="_blank" class="btn btn-primary">GitHub Link</a>
+            <a
+              href="https://todo-list-liart-alpha.vercel.app/"
+              target="_blank"
+              class="btn btn-primary"
+              >View Project</a
+            >
+            <a
+              href="https://github.com/KeiraKistensamy/todoList.git"
+              target="_blank"
+              class="btn btn-primary"
+              >GitHub Link</a
+            >
           </div>
         </div>
       </div>
@@ -107,8 +149,18 @@
           </p>
           <p class="tech-stack">HTML, CSS, Javascript</p>
           <div class="button-group">
-            <a href="https://icenterecom.vercel.app/" target="_blank" class="btn btn-primary">View Project</a>
-            <a href="https://github.com/KeiraKistensamy/iCenterE-com.git" target="_blank" class="btn btn-primary">GitHub Link</a>
+            <a
+              href="https://icenterecom.vercel.app/"
+              target="_blank"
+              class="btn btn-primary"
+              >View Project</a
+            >
+            <a
+              href="https://github.com/KeiraKistensamy/iCenterE-com.git"
+              target="_blank"
+              class="btn btn-primary"
+              >GitHub Link</a
+            >
           </div>
         </div>
       </div>
@@ -124,12 +176,23 @@
         <div class="card-body">
           <h5 class="card-title">Temperature Convertor</h5>
           <p class="card-text">
-            A converter that switches temperature between Celsius and Fahrenheit.
+            A converter that switches temperature between Celsius and
+            Fahrenheit.
           </p>
           <p class="tech-stack">HTML, CSS, Javascript</p>
           <div class="button-group">
-            <a href="https://temperature-converter-lemon.vercel.app/" target="_blank" class="btn btn-primary">View Project</a>
-            <a href="https://github.com/KeiraKistensamy/TemperatureCal.git" target="_blank" class="btn btn-primary">GitHub Link</a>
+            <a
+              href="https://temperature-converter-lemon.vercel.app/"
+              target="_blank"
+              class="btn btn-primary"
+              >View Project</a
+            >
+            <a
+              href="https://github.com/KeiraKistensamy/TemperatureCal.git"
+              target="_blank"
+              class="btn btn-primary"
+              >GitHub Link</a
+            >
           </div>
         </div>
       </div>
@@ -148,12 +211,23 @@
         <div class="card-body">
           <h5 class="card-title">BMI Calculator</h5>
           <p class="card-text">
-            A functional BMI Calculator that takes your height and weight to give your BMI.
+            A functional BMI Calculator that takes your height and weight to
+            give your BMI.
           </p>
           <p class="tech-stack">HTML, CSS, Javascript</p>
           <div class="button-group">
-            <a href="https://bmi-gold-beta.vercel.app/" target="_blank" class="btn btn-primary">View Project</a>
-            <a href="https://github.com/KeiraKistensamy/BMI.git" target="_blank" class="btn btn-primary">GitHub Link</a>
+            <a
+              href="https://bmi-gold-beta.vercel.app/"
+              target="_blank"
+              class="btn btn-primary"
+              >View Project</a
+            >
+            <a
+              href="https://github.com/KeiraKistensamy/BMI.git"
+              target="_blank"
+              class="btn btn-primary"
+              >GitHub Link</a
+            >
           </div>
         </div>
       </div>
@@ -173,8 +247,18 @@
           </p>
           <p class="tech-stack">HTML, CSS, Javascript</p>
           <div class="button-group">
-            <a href="https://nodeprojectfullstack.web.app/" target="_blank" class="btn btn-primary">View Project</a>
-            <a href="https://github.com/sihlandlomak/nodeprojectfullstack.git" target="_blank" class="btn btn-primary">GitHub Link</a>
+            <a
+              href="https://nodeprojectfullstack.web.app/"
+              target="_blank"
+              class="btn btn-primary"
+              >View Project</a
+            >
+            <a
+              href="https://github.com/sihlandlomak/nodeprojectfullstack.git"
+              target="_blank"
+              class="btn btn-primary"
+              >GitHub Link</a
+            >
           </div>
         </div>
       </div>
@@ -190,12 +274,23 @@
         <div class="card-body">
           <h5 class="card-title">Temperature Convertor</h5>
           <p class="card-text">
-            A converter that switches temperature between Celsius and Fahrenheit.
+            A converter that switches temperature between Celsius and
+            Fahrenheit.
           </p>
           <p class="tech-stack">HTML, CSS, Javascript</p>
           <div class="button-group">
-            <a href="https://temperature-converter-lemon.vercel.app/" target="_blank" class="btn btn-primary">View Project</a>
-            <a href="https://github.com/KeiraKistensamy/TemperatureCal.git" target="_blank" class="btn btn-primary">GitHub Link</a>
+            <a
+              href="https://temperature-converter-lemon.vercel.app/"
+              target="_blank"
+              class="btn btn-primary"
+              >View Project</a
+            >
+            <a
+              href="https://github.com/KeiraKistensamy/TemperatureCal.git"
+              target="_blank"
+              class="btn btn-primary"
+              >GitHub Link</a
+            >
           </div>
         </div>
       </div>
@@ -209,41 +304,89 @@
 
   <div class="border"></div>
 
-  <div class="row study">
-  <div class="col-md-6">
-    <div class="card hack-card case-study custom-card" data-aos="fade-up">
-      <img
-        src="https://keirakistensamy.github.io/newimg/Screenshot 2025-01-22 112320.png"
-        class="card-img-top"
-        alt="..."
-      />
-      <div class="card-body">
-        <h5 class="card-title">My Portfolio</h5>
-        <p>I replicated a Figma design of a portfolio I made, ensuring that the layout and elements were accurately translated into a functional and visually appealing website.</p>
-        <div class="button-group">
-          <a href="https://dev-keirak.pantheonsite.io/" target="_blank" class="btn btn-primary">View Portfolio</a>
-          <a href="https://www.figma.com/design/DZFSQGqGTybLYed90pPePh/Untitled?node-id=0-1&p=f&t=iCZ8TJy6xIPng1AQ-0" target="_blank" class="btn btn-primary">Figma Link</a>
+  <div class="row justify-content-center study">
+    <div class="col-md-4">
+      <div class="card hack-card case-study custom-card" data-aos="fade-up">
+        <img
+          src="https://keirakistensamy.github.io/newimg/Screenshot 2025-01-22 112320.png"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">My Portfolio</h5>
+          <p>
+            I replicated a Figma design of a portfolio I made, ensuring that the
+            layout and elements were accurately translated into a functional and
+            visually appealing website.
+          </p>
+          <div class="button-group">
+            <a
+              href="https://dev-keirak.pantheonsite.io/"
+              target="_blank"
+              class="btn btn-primary"
+              >View Portfolio</a
+            >
+            <a
+              href="https://www.figma.com/design/DZFSQGqGTybLYed90pPePh/Untitled?node-id=0-1&p=f&t=iCZ8TJy6xIPng1AQ-0"
+              target="_blank"
+              class="btn btn-primary"
+              >Figma Link</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card hack-card case-study custom-card" data-aos="fade-up">
+        <img
+          src="https://keirakistensamy.github.io/newimg/Screenshot 2025-01-22 112358.png"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">My Ecommerce</h5>
+          <p>
+            I developed an eCommerce website by fully customizing a template and
+            integrating it with an API to dynamically fetch and display product
+            data.
+          </p>
+          <div class="button-group">
+            <a
+              href="https://dev-keiraecom.pantheonsite.io/ "
+              target="_blank"
+              class="btn btn-primary"
+              >View Ecommerce</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card hack-card case-study custom-card" data-aos="fade-up">
+        <img
+          src="https://keirakistensamy.github.io/newimg/Screenshot 2025-01-22 112358.png"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">My Ecommerce</h5>
+          <p>
+            I developed an eCommerce website by fully customizing a template and
+            integrating it with an API to dynamically fetch and display product
+            data.
+          </p>
+          <div class="button-group">
+            <a
+              href="https://dev-keiraecom.pantheonsite.io/ "
+              target="_blank"
+              class="btn btn-primary"
+              >View Ecommerce</a
+            >
+          </div>
         </div>
       </div>
     </div>
   </div>
-  <div class="col-md-6">
-    <div class="card hack-card case-study custom-card" data-aos="fade-up">
-      <img
-        src="https://keirakistensamy.github.io/newimg/Screenshot 2025-01-22 112358.png"
-        class="card-img-top"
-        alt="..."
-      />
-      <div class="card-body">
-        <h5 class="card-title">My Ecommerce</h5>
-        <p>I developed an eCommerce website by fully customizing a template and integrating it with an API to dynamically fetch and display product data.</p>
-        <div class="button-group">
-          <a href="https://dev-keiraecom.pantheonsite.io/ " target="_blank" class="btn btn-primary">View Ecommerce</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
 
   <!-- Case Study -->
   <div class="case" data-aos="fade-up">
@@ -255,55 +398,74 @@
   <div class="row study">
     <div class="col-md-6">
       <div class="card hack-card case-study" data-aos="fade-up">
-        <img
-          src="/img/icons/images (1).png"
-          class="card-img-top"
-          alt="..."
-        />
+        <img src="/img/icons/images (1).png" class="card-img-top" alt="..." />
         <div class="card-body">
           <h5 class="card-title">Product Development Hackathon</h5>
           <div class="button-group">
-            <router-link to="/CaseStudy1" class="btn btn-primary">View</router-link>
+            <router-link to="/CaseStudy1" class="btn btn-primary"
+              >View</router-link
+            >
           </div>
         </div>
       </div>
     </div>
     <div class="col-md-6">
       <div class="card hack-card case-study" data-aos="fade-up">
-        <img src="/img/icons/images (1).png" class="card-img-top" alt="..."
-        />
+        <img src="/img/icons/images (1).png" class="card-img-top" alt="..." />
         <div class="card-body">
           <h5 class="card-title">UI/UX Hackathon</h5>
           <div class="button-group">
-            <router-link to="/CaseStudy2" class="btn btn-primary">View</router-link>
+            <router-link to="/CaseStudy2" class="btn btn-primary"
+              >View</router-link
+            >
           </div>
         </div>
       </div>
     </div>
-  </div>  
+  </div>
 
- <!-- Badges -->
- <div class="case" data-aos="fade-up">
+  <!-- Badges -->
+  <div class="case" data-aos="fade-up">
     <p>Badges</p>
   </div>
 
   <div class="border"></div>
-  
+
   <div class="badges-container d-flex justify-content-evenly">
     <div class="badge-item" data-aos="fade-up">
-      <img src="https://keirakistensamy.github.io/newimg/image/Linux.png" alt="Linux" width="180px" height="180px">
+      <img
+        src="https://keirakistensamy.github.io/newimg/image/Linux.png"
+        alt="Linux"
+        width="180px"
+        height="180px"
+      />
       <p class="desc">Linux</p>
     </div>
     <div class="badge-item" data-aos="fade-up">
-      <img src="https://keirakistensamy.github.io/newimg/image/OSB.png" alt="OSB" width="180px" height="180px">
+      <img
+        src="https://keirakistensamy.github.io/newimg/image/OSB.png"
+        alt="OSB"
+        width="180px"
+        height="180px"
+      />
       <p class="desc">Operating System Basics</p>
     </div>
     <div class="badge-item" data-aos="fade-up">
-      <img src="https://keirakistensamy.github.io/newimg/image/Network1.png" alt="Networking1" width="180px" height="180px">
+      <img
+        src="https://keirakistensamy.github.io/newimg/image/Network1.png"
+        alt="Networking1"
+        width="180px"
+        height="180px"
+      />
       <p class="desc">Networking TCP</p>
     </div>
     <div class="badge-item" data-aos="fade-up">
-      <img src="https://keirakistensamy.github.io/newimg/image/network2.png" alt="Networking2" width="180px" height="180px">
+      <img
+        src="https://keirakistensamy.github.io/newimg/image/network2.png"
+        alt="Networking2"
+        width="180px"
+        height="180px"
+      />
       <p class="desc">Networking DIC</p>
     </div>
   </div>
@@ -318,34 +480,33 @@
       <img src="/src/assets/WordPress.png" alt="OSB" width="180px" height="180px">
       <p class="desc">WordPress Portfolio</p>
     </div> -->
-    <!-- <div class="badge-item" data-aos="fade-up">
+  <!-- <div class="badge-item" data-aos="fade-up">
       <img src="https://keirakistensamy.github.io/newimg/image/Network1.png" alt="Networking1" width="180px" height="180px">
       <p class="desc">Networking TCP</p>
     </div>
     <div class="badge-item" data-aos="fade-up">
       <img src="https://keirakistensamy.github.io/newimg/image/network2.png" alt="Networking2" width="180px" height="180px">
       <p class="desc">Networking DIC</p> -->
-    <!-- </div>   -->
-  
+  <!-- </div>   -->
+
   <!-- </div> -->
 </template>
 
 <script>
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default {
   mounted() {
     AOS.init({
       duration: 1000, // Animation duration
-      once: true,     // Animation happens only once
+      once: true, // Animation happens only once
     });
-  }
-}
+  },
+};
 </script>
 
 <style scoped>
-
 .projects p {
   color: white;
   font-size: 64px;
@@ -378,7 +539,7 @@ export default {
   margin: 0 auto;
 }
 
-.study{
+.study {
   width: 100%;
 }
 
@@ -395,9 +556,9 @@ export default {
 }
 
 .col-md-6 {
-  display: flex;               /* Add Flexbox to center */
-  justify-content: center;     /* Center items horizontally */
-  align-items: center;         /* Center items vertically */
+  display: flex; /* Add Flexbox to center */
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
 }
 
 .hack-card {
@@ -439,6 +600,10 @@ export default {
   height: 100%;
 }
 
+.card {
+  overflow: hidden;
+}
+
 .card-title {
   font-weight: bold;
   color: #343a40;
@@ -476,15 +641,15 @@ export default {
 }
 
 .badges-container {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    gap: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .badge-item img {
-    width: 100%;
-    max-width: 180px;
+  width: 100%;
+  max-width: 180px;
 }
 
 .badge-item {
@@ -496,8 +661,8 @@ export default {
 }
 
 .border {
-    height: 2px;
-    background-color: #ccc;
+  height: 2px;
+  background-color: #ccc;
 }
 
 .button-group {
@@ -508,18 +673,18 @@ export default {
 }
 
 .project-card {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .tech-stack {
-    font-style: italic;
-    color: #555;
+  font-style: italic;
+  color: #555;
 }
 
-.desc{
-    color: white;
-    display: flex;
-    justify-content: center;
+.desc {
+  color: white;
+  display: flex;
+  justify-content: center;
 }
 
 /* Wordpress */
@@ -528,15 +693,18 @@ export default {
   display: flex;
   flex-direction: column;
   height: 100%;
-  justify-content: space-between;
+  width: 100%;
+  /* justify-content: center; */
 }
 
 .custom-card .card-body {
   padding: 20px;
+  width: 100%;
 }
 
 .custom-card .card-img-top {
   height: 200px;
+  width: 100%;
   object-fit: cover;
 }
 
@@ -544,10 +712,9 @@ export default {
   margin-top: auto; /* Ensures the button is at the bottom of the card */
 }
 
-.custom-card:hover{
+.custom-card:hover {
   transform: scale(1.05);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-
 }
 
 /* Media query for 320px */
@@ -564,7 +731,7 @@ export default {
     margin: 15px auto;
   }
 
-  .card{
+  .card {
     width: 100%;
   }
 
@@ -589,11 +756,12 @@ export default {
     padding: 0.25rem 0.5rem;
   }
 
-  .case p{
+  .case p {
     font-size: 32px;
     margin-left: 1rem;
     padding-left: 0.5rem;
-    border-left: 0.5rem solid gold;  }
+    border-left: 0.5rem solid gold;
+  }
 
   /* Center project cards on mobile */
   .row {
